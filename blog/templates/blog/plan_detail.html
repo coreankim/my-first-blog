@@ -1,0 +1,28 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+	<div class="row">
+	    <div class="col-md-12">
+		    <div id="plan-detail">
+		        <h2>{{ plan.Injury }}</h2>
+		        <br>
+		        <div id="acute-plan">
+			        <label style="width:150px;"><u><h3>Acute Plan</h3></u></label>
+					<button type="button" class="btn btn-primary" pk="{{ plan.pk }}" id="plan-detail-button" data-state="unclicked">Detail
+					</button>
+					<br>
+			        <span id="acute-plan-info">
+				        <b><p>{{ plan.Acute_plan_checklist|safe|linebreaksbr }}</p></b>
+			        </span>
+				</div>
+				<br>
+
+				<div id="follow-up">
+			        <u><h3>Follow Up</h3></u>
+			        <b><p>{{ plan.Follow_up|safe|linebreaksbr }}</p></b>
+			    </div>
+		        <br>
+		    </div>
+		</div>
+	</div>
+{% endblock %}

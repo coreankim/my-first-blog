@@ -15,3 +15,10 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+class Plan(models.Model):
+    Category = models.CharField(max_length=60)
+    Injury = models.CharField(max_length=60)
+    Acute_plan_checklist = models.TextField()
+    Acute_plan_reasons = models.TextField()
+    Follow_up = models.TextField()

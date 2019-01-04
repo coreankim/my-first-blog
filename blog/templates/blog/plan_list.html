@@ -1,0 +1,105 @@
+  <ul class="list-unstyled components">
+      <li>
+          <a href="#General" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">General</a>
+          <ul class="collapse list-unstyled" id="General">
+              {% for plan in plans %}
+                {% if plan.Category == "General" %}
+                  <li>
+                    <a href="{% url 'plan_detail' pk=plan.pk %}">{{ plan.Injury }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+
+      <li>
+          <a href="#Hip" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Hip</a>
+          <ul class="collapse list-unstyled" id="Hip">
+              {% for plan in plans %}
+                {% if plan.Category == "Hip" %}
+                  <li>
+                    <a href="{% url 'plan_detail' pk=plan.pk %}">{{ plan.Injury }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+
+      <li>
+          <a href="#Procedures" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Procedures</a>
+          <ul class="collapse list-unstyled" id="Procedures">
+              {% for plan in plans %}
+                {% if plan.Category == "Procedures" %}
+                  <li>
+                    <a href="{% url 'plan_detail' pk=plan.pk %}">{{ plan.Injury }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+
+      <li>
+          <a href="#Rotations" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Rotations</a>
+          <ul class="collapse list-unstyled" id="Rotations">
+              {% for plan in plans %}
+                {% if plan.Category == "Rotations" %}
+                  <li>
+                    <a href="{% url 'plan_detail' pk=plan.pk %}">{{ plan.Injury }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+
+      <li>
+          <a href="#Attendings" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Attending Preferences</a>
+          <ul class="collapse list-unstyled" id="Attendings">
+              {% for plan in plans %}
+                {% if plan.Category == "General" %}
+                  <li>
+                    <a href="{% url 'plan_detail' pk=plan.pk %}">{{ plan.Injury }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+
+      <li>
+          <a href="#Templates" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Templates</a>
+          <ul class="collapse list-unstyled" id="Templates">
+              {% for plan in plans %}
+                {% if plan.Category == "Templates" %}
+                  <li>
+                    <a href="{% url 'plan_detail' pk=plan.pk %}">{{ plan.Injury }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+
+      <li>
+          <a href="#Contact" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Contact Info</a>
+          <ul class="collapse list-unstyled" id="Contact">
+              {% for plan in plans %}
+                {% if plan.Category == "Contact" %}
+                  <li>
+                    <a href="{% url 'plan_detail' pk=plan.pk %}">{{ plan.Injury }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+
+      <li>
+          <a href="#Education" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Education Sources</a>
+          <ul class="collapse list-unstyled" id="Education">
+              {% for plan in plans %}
+                {% if plan.Category == "Education" %}
+                  <li>
+                    <a href="{% url 'plan_detail' pk=plan.pk %}">{{ plan.Injury }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+          </ul>
+      </li>
+  </ul>
