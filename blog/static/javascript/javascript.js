@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+console.log("Im working!")
 	$.ajax({
 		url: '/blog/sidebar/',
 		type: 'get',
