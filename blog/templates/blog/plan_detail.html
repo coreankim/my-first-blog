@@ -7,6 +7,12 @@
 		        <h2>{{ plan.Injury }}</h2>
 		        <br>
 		        <div id="acute-plan">
+		        	{% if plan.Category == "Procedures" or plan.Category == "Rotations" %}
+			        <span id="acute-plan-info">
+				        <b><p>{{ plan.Acute_plan_checklist|safe|linebreaksbr }}</p></b>
+			        </span>
+			
+			     	{% else %}
 			        <label style="width:150px;"><u><h3>Acute Plan</h3></u></label>
 					<button type="button" class="btn btn-primary" pk="{{ plan.pk }}" id="plan-detail-button" data-state="unclicked">Detail
 					</button>
@@ -14,13 +20,14 @@
 			        <span id="acute-plan-info">
 				        <b><p>{{ plan.Acute_plan_checklist|safe|linebreaksbr }}</p></b>
 			        </span>
-				</div>
 				<br>
 
 				<div id="follow-up">
 			        <u><h3>Follow Up</h3></u>
 			        <b><p>{{ plan.Follow_up|safe|linebreaksbr }}</p></b>
 			    </div>
+				{% endif %}
+
 		        <br>
 		    </div>
 		</div>
