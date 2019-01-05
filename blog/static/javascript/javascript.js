@@ -8,8 +8,8 @@ console.log("Im working!")
 		success: function (data) {
 			for (var x in data["plans"]) {
 			    var componentID = data["plans"][x]["Category"]
-			    var id = data["plans"][x]["id"]
-                var text="/blog/"+id+"/"
+			    var Injury_key = data["plans"][x]["Injury_key"]
+                var text="/blog/"+Injury_key+"/"
                 var list = $("<li>")
                 var link = $("<a />", {
 				    href : text,
@@ -34,10 +34,10 @@ console.log("Im working!")
     });
 
 	$('#plan-detail-button').click( function(event) {
-		var pk = $(this).attr("pk")
+		var Injury_key = $(this).attr("Injury_key")
 		var data_state = $(this).attr("data-state") 
 	    $.ajax({
-			url: '/blog/plan_detail_toggle/'+pk+'/',
+			url: '/blog/plan_detail_toggle/'+Injury_key+"/",
 			type: 'get',
 			dataType: 'json',
 			success: function (data) {

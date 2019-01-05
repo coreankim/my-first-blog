@@ -17,8 +17,9 @@ class Post(models.Model):
         return self.title
 
 class Plan(models.Model):
-    Category = models.CharField(max_length=60)
-    Injury = models.CharField(max_length=60)
+    Category = models.CharField(max_length=100)
+    Injury = models.CharField(max_length=100)
+    Injury_key = models.CharField(max_length=100)
     Acute_plan_checklist = models.TextField()
     Acute_plan_reasons = models.TextField()
     Follow_up = models.TextField()

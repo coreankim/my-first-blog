@@ -17,23 +17,24 @@ def plan_list(request):
 def sidebar(request):
 	plans = Plan.objects.all()
 	planObjList = list()
-	print(plans)
 	for x in plans:
 		planObj = dict()
-		planObj["id"] = x.id
+		planObj["Injury_key"] = x.Injury_key
 		planObj["Injury"] = x.Injury
 		planObj["Category"] = x.Category
 		planObjList.append(planObj)
 	return JsonResponse({'plans': planObjList})
 
-def plan_detail(request, pk):
-    plan = get_object_or_404(Plan, pk=pk)
+def plan_detail(request, Injury_key):
+    plan = get_object_or_404(Plan, Injury_key=Injury_key)
     return render(request, 'blog/plan_detail.html', {'plan': plan})
 
-def plan_detail_toggle(request, pk):
-	plan = get_object_or_404(Plan, pk=pk)
+def plan_detail_toggle(request, Injury_key):
+	print("I got the data")
+	plan = get_object_or_404(Plan, Injury_key=Injury_key)
 	plan_detail_toggle = {
 		"Acute_plan_checklist": plan.Acute_plan_checklist,
 		"Acute_plan_reasons": plan.Acute_plan_reasons
 	}
+	print(plan_detail_toggle)
 	return JsonResponse({'plan_detail_toggle': plan_detail_toggle})
