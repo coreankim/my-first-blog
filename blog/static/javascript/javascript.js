@@ -56,12 +56,12 @@ console.log("Im working!")
 						newTextList.push(newText)
 					}
 					text = newTextList.join(" ")
-					$('#acute-plan-info').html("<p>"+text.replace(/\"/g, "")+"</p><br>")
+					$('#acute-plan-info').html("<p>"+text.replace(/\"/g, "")+"<br></p>")
 				} else if (data_state === "clicked") {
 					$('#plan-detail-button').attr("data-state", "unclicked")
 					$('#plan-detail-button').text("Detail")
 					text = JSON.stringify(data["plan_detail_toggle"]["Acute_plan_checklist"])
-					$('#acute-plan-info').html("<p>"+text.replace(/\\n/g, '<br>').replace(/\"/g, "")+"</p><br>")
+					$('#acute-plan-info').html("<p>"+text.replace(/\\n/g, '<br>').replace(/\"/g, "")+"<br></p>")
 				}
 			}
 	    });

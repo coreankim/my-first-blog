@@ -9,7 +9,7 @@
 		        <div id="acute-plan">
 		        	{% if plan.Category == "Procedures" or plan.Category == "Rotations" %}
 			        <span id="acute-plan-info">
-				        <b><p>{{ plan.Acute_plan_checklist|safe|linebreaksbr }}</p></b>
+				        <p>{{ plan.Acute_plan_checklist|safe|linebreaksbr }}</p>
 			        </span>
 			
 			     	{% else %}
@@ -18,13 +18,13 @@
 					</button>
 					<br>
 			        <span id="acute-plan-info">
-				        <b><p>{{ plan.Acute_plan_checklist|safe|linebreaksbr }}</p></b>
+				        <p>{{ plan.Acute_plan_checklist|safe|linebreaksbr }}</p>
 			        </span>
 				<br>
 
 				<div id="follow-up">
 			        <u><h3>Follow Up</h3></u>
-			        <b><p>{{ plan.Follow_up|safe|linebreaksbr }}</p></b>
+			        <p>{{ plan.Follow_up|safe|linebreaksbr }}</p>
 			    </div>
 				{% endif %}
 
