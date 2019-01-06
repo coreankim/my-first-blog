@@ -127,7 +127,7 @@
         "Injury": "Cervical extension teardrop fracture",
         "Injury_key": "cervical_extension_teardrop_fracture",
         "Acute_plan_checklist": "Define it\nGet standing AP/lateral XRs\nGet CT\nConduct neuro exam\nConsider central cord syndrome\nConsider MRI\n",
-        "Acute_plan_reasons": "\"Define it: Avulsion of anterioinferior corner of vertebral body, due to hyperextension.\nGet standing AP/lateral XRs: Identify the triangular shaped (hence \"\"teardrop\"\") fragment, assess anterior disc space for widening \nGet CT: Method of choice. Identify any other fracture extension.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider central cord syndrome: Associted due to buckling of ligamentum flavum during hyperextension.\nConsider MRI:\nDiscuss with senior.\nGet if neuro deficits present or you suspect central cord syndrome.\"",
+        "Acute_plan_reasons": "Define it: Avulsion of anterioinferior corner of vertebral body, due to hyperextension.\nGet standing AP/lateral XRs: Identify the triangular shaped (hence 'teardrop') fragment, assess anterior disc space for widening \nGet CT: Method of choice. Identify any other fracture extension.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider central cord syndrome: Associted due to buckling of ligamentum flavum during hyperextension.\nConsider MRI:\nDiscuss with senior.\nGet if neuro deficits present or you suspect central cord syndrome.\"",
         "Follow_up": "Discharge in hard cervical collar if no neuro deficits"
     }
 },
