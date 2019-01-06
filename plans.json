@@ -207,7 +207,7 @@
     "model": "blog.plan",
     "pk": 18,
     "fields": {
-        "Category": "Spine infection",
+        "Category": "Spine_infection",
         "Injury": "Vertebral osteomyelitis",
         "Injury_key": "vertebral_osteomyelitis",
         "Acute_plan_checklist": "Get ESR, CRP, WBC, blood cultures:\nHold antibiotics:\nGet MRI w/ contrast:\nConsulting service MUST have MRI if consulting for vertebral osteomyelitis\n",
@@ -219,7 +219,7 @@
     "model": "blog.plan",
     "pk": 19,
     "fields": {
-        "Category": "Spine infection",
+        "Category": "Spine_infection",
         "Injury": "Spinal epidural abscess",
         "Injury_key": "spinal_epidural_abscess",
         "Acute_plan_checklist": "Get ESR, CRP, WBC, blood cultures:\nHold antibiotics:\nMake NPO:\nGet MRI w/ contrast:\nConsulting service MUST have MRI if consulting for vertebral osteomyelitis\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\n",
@@ -231,7 +231,7 @@
     "model": "blog.plan",
     "pk": 20,
     "fields": {
-        "Category": "Spine infection",
+        "Category": "Spine_infection",
         "Injury": "Post-operative infection",
         "Injury_key": "post-operative_infection",
         "Acute_plan_checklist": "Get ESR, CRP, WBC, blood cultures:\nHold antibiotics:\nMake NPO:\nGet MRI w/ contrast:\nConsulting service MUST have MRI if consulting for vertebral osteomyelitis\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\n",
