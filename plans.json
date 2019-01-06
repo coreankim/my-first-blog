@@ -292,9 +292,9 @@
     "pk": 25,
     "fields": {
         "Category": "Rotations",
-        "Injury": "Pediatrics",
-        "Injury_key": "pediatric_rotation",
-        "Acute_plan_checklist": "",
+        "Injury": "Night float",
+        "Injury_key": "night_float",
+        "Acute_plan_checklist": "Daily Schedule\n6PM-7PM: Receive sign-out from dayfloat and help them finish up.\n7PM-430AM: Consults.\n430AM: No matter how busy I am, generally come back up to the callroom to finish email.\n5AM: Send email.\n545AM: Send group text to Dr. Sontich/Wetzel/Ochenjele about operative traumas. Just send\npictures, and I usually copy the HPI/Plan from my call email. They will expect you to know\nthings about cases added on during the day too, so be prepared.\n6AM-7AM: Staff your consults with the attendings. Pretty much all of my staffing was via text.\nJust send pics/copy call email.\n7AM-8AM: Signout to dayfloat, finish up your work. Go to lecture only if all the other stuff is\ntied up.",
         "Acute_plan_reasons": "",
         "Follow_up": ""
     }
