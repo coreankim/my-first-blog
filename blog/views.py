@@ -9,10 +9,6 @@ def base(request):
 	plans = Plan.objects.all()
 	return render(request, 'blog/base.html')
 
-def plan_list(request):
-    plans = Plan.objects.all()
-    return render(request, 'blog/plan_list.html', {'plans': plans})
-
 def sidebar(request):
 	plans = Plan.objects.all()
 	planObjList = list()
@@ -26,6 +22,14 @@ def sidebar(request):
 
 def plan_detail(request, Injury_key):
     plan = get_object_or_404(Plan, Injury_key=Injury_key)
+	# acute_plan_checklist = JSON.stringify(Plan.Acute_plan_reasons.replace(":", ":#@").split("#@"))
+	# newTextList = list()
+	# for i in range(len(acute_plan_checklist)):
+	# 	newText = ""
+	# 	if ":" in  textList[i]:
+	# 		newText = textList[i]
+	# 	newTextList.append(newText)
+	# text = " ".join(newTextList)
     return render(request, 'blog/plan_detail.html', {'plan': plan})
 
 def plan_detail_toggle(request, Injury_key):
