@@ -45,6 +45,7 @@ console.log("Im working!")
 					$('#plan-detail-button').attr("data-state", "clicked")
 					$('#plan-detail-button').text("No detail")
 					var textList = JSON.stringify(data["plan_detail_toggle"]["Acute_plan_reasons"]).replace(/\\n/g, '<br>#@').replace(/\:/g, ":#@").split("#@")
+					console.log(textList)
 					var newTextList = [] 
 					for (var i = 0; i < textList.length; i++) {
 						var newText = ""
@@ -56,7 +57,8 @@ console.log("Im working!")
 						newTextList.push(newText)
 					}
 					text = newTextList.join(" ")
-					$('#acute-plan-info').html("<p>"+text.replace(/\"/g, "")+"<br></p>")
+					console.log(text)
+					$('#acute-plan-info').html("<p>"+text.replace(/\"/g, "").replace(/\%%/g, ":")+"<br></p>")
 				} else if (data_state === "clicked") {
 					$('#plan-detail-button').attr("data-state", "unclicked")
 					$('#plan-detail-button').text("Detail")

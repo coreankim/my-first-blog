@@ -150,8 +150,8 @@
         "Category": "Thoracolumbar_spine",
         "Injury": "Thoracolumbar fracture",
         "Injury_key": "thoracolumbar_fracture",
-        "Acute_plan_checklist": "Get full spine AP/lateral XRs\nGet full spine CT\nCalculate TLICS\nConsider MRI\n",
-        "Acute_plan_reasons": "\"Get full spine CT: Method of choice. Full spine needed b/c 20% concomitant spine fractures.\nGet full spine AP/lateral XRs: Mainly used for follow-up in clinic to assess alignment.\nGet MRI:\nCalculate TLICS: <a href=\"\"https://www.mdapp.co/thoracolumbar-injury-classification-and-severity-tlics-score-calculator-283/\"\">TLICS calculator</a>\n\"",
+        "Acute_plan_checklist": "Get full spine AP/lateral XRs\nGet full spine CT\nConsider MRI\nCalculate TLICS",
+        "Acute_plan_reasons": "Get full spine CT: Method of choice. Full spine needed b/c 20% concomitant spine fractures.\nGet full spine AP/lateral XRs: Mainly used for follow-up in clinic to assess alignment.\nGet MRI:\nCalculate TLICS: <a href='https%%//www.mdapp.co/thoracolumbar-injury-classification-and-severity-tlics-score-calculator-283/'><u>TLICS calculator</u></a>",
         "Follow_up": "Discharge in hard cervical collar if no neuro deficits"
     }
 },
