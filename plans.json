@@ -54,9 +54,9 @@
         "Category": "Cervical_spine",
         "Injury": "Occipitocervical injury",
         "Injury_key": "occipitocervical_injury",
-        "Acute_plan_checklist": "Get CT\nConduct neuro exam\nCalculate Powels ratio\nCalculate basion-dens interval\nGet Anderson classification\nConsider MRI",
-        "Acute_plan_reasons": "Get CT: Xrays rarely helpful because maxilla and occiput block condyles, must get CT as method of choice.\nConduct neuro exam: full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's) \nCalculate Powels ratio: From CT. ~1 normal, <1 posterior occipitocervical dislocation, >1 anterior occipitocervical dislocation.\nCalculate basion-dens interval: From CT. >12mm disassociation.\nGet Anderson classification: For occipitocervical fractures. Type I,II,III. Based off CT.\nConsider MRI: Discuss with senior. Get if CT shows fracture retropulsion into canal or CT findins suspicious for ligamentous injury (widening of condyle spaces, etc.). ",
-        "Follow_up": "Trauma service involvement: Considered high energy injury, recommend Aspen collar\nPost for urgent OR: C0-2/3 fusion for occipitocervical dissasociation, retropulsion into canal, ligamentous instability"
+        "Acute_plan_checklist": "AP, lateral, open-mouth odontoid XRs\nGet CT\nConduct neuro exam\nCalculate Powels ratio\nCalculate basion-dens interval\nGet Anderson classification\nConsider MRI",
+        "Acute_plan_reasons": "AP, lateral, open-mouth odontoid XRs: Rarely helpful to assess condylar injuries because maxilla and occiput block condyles, mainly for seeing associated injuries.\nGet CT:  Must get CT as method of choice.\nConduct neuro exam: full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's) \nCalculate Powels ratio: \nFrom CT. Distance from basion to posterior arch / Distance from anterior arch to opisthion\u00a0\n~1 normal, <1 posterior occipitocervical dislocation, >1 anterior occipitocervical dislocation.\nCalculate basion-dens interval: From CT. >12mm disassociation.\nGet Anderson classification: For occipitocervical fractures. Type I,II,III. Based off CT.\nConsider MRI: Discuss with senior. Get if CT shows fracture retropulsion into canal or CT findins suspicious for ligamentous injury (widening of condyle spaces, etc.). ",
+        "Follow_up": "Trauma service involvement: Considered high energy injury, recommend Aspen collar and observation for 24hrs\nPost for urgent OR: C0-2/3 fusion for occipitocervical dissasociation, retropulsion into canal, ligamentous instability"
     }
 },
 {
@@ -66,14 +66,38 @@
         "Category": "Cervical_spine",
         "Injury": "C1 (Atlas) fracture",
         "Injury_key": "c1_(atlas)_fracture",
-        "Acute_plan_checklist": "Get AP, lateral, and open mouth odontoid XRs\nGet CT\nGet Landells atlas fracture classification\nCalculate ADI\nCalculate SAC\nCalculate total lateral mass displacement\nAsk about adult associated conditions\nAsk about pediatric associated conditions\nAssess for associated spine injuries\nConduct neuro exam\nConsider MRI\n",
-        "Acute_plan_reasons": "Get AP, lateral, and open mouth odontoid XRs: Calculate ADI, SAC, lateral mass displacement from normal XRs. \nConsider flexion-extension views: Required for pre-operative clearance, but do not order them in ED without discussion with senior.\nGet CT: Method of choice.\nGet Landells atlas fracture classification: Based off CT. Type I,II,III.\nCalculate ADI: \nFrom lateral. Distance b/w odontoid and anterior atlas. \n>3mm is unstable in adults, >5mm is unstable in children,  >10mm is indication for surgery in RA\nCalculate SAC:\nFrom lateral. Distance b/w odontoid and to posterior atlas.\n<14mm is indication for surgery in RA patients.\nCalculate sum of both lateral mass displacement: From odontoid view. >7mm indicates transverse ligmanet disruption, is unstable\nAsk about adult associated conditions: Down syndrome, RA\nAsk about pediatric associated conditions: JRA, Morquio's syndrome, rotatory atlantoaxial subluxation\nAssess for other spine injuries: 50% incidence\nConduct neuro exam: full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's) \nConsider MRI: Discuss with senior at this point, if you suspect ligamentous disruption or unstable neuro exam.",
-        "Follow_up": "Trauma service involvement: Considered high energy injury, recommend Aspen collar\nPost for OR: If unstable ligamentous injury or neuro exam"
+        "Acute_plan_checklist": "Get AP, lateral, and open mouth odontoid XRs\nGet CT\nGet Landells atlas fracture classification:\nCalculate ADI\nCalculate SAC\nCalculate total lateral mass displacement\nAsk about adult associated conditions\nAsk about pediatric associated conditions\nAssess for associated spine injuries\nConduct neuro exam\nConsider MRI",
+        "Acute_plan_reasons": "Get AP, lateral, and open mouth odontoid XRs: Calculate ADI, SAC, lateral mass displacement from normal XRs. \nConsider flexion-extension views: Required for pre-operative clearance and ideal ADI and SAC, but do not order them in ED without discussion with senior.\nGet CT: Method of choice.\nGet Landells atlas fracture classification: Based off CT. Type I,II,III.\nCalculate ADI: \nFrom lateral. Distance b/w odontoid and anterior atlas. \n>3mm is unstable in adults, >5mm is unstable in children,  >10mm is indication for surgery in RA\nCalculate SAC:\nFrom lateral. Distance b/w odontoid and to posterior atlas.\n<13mm is unstable, <14mm is indication for surgery in RA patients.\nCalculate sum of both lateral mass displacement: From odontoid view. >7mm indicates transverse ligmanet disruption, is unstable\nAsk about adult associated conditions: Down syndrome, RA\nAsk about pediatric associated conditions: JRA, Morquio's syndrome, rotatory atlantoaxial subluxation\nAssess for other spine injuries: 50% incidence\nConduct neuro exam: full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's) \nConsider MRI: Discuss with senior at this point, if you suspect ligamentous disruption or unstable neuro exam.",
+        "Follow_up": "Trauma service involvement: Considered high energy injury, recommend Aspen collar and observation for 24hrs\nPost for OR: If unstable ligamentous injury or neuro exam. Post for posterior C1-C2 fusion vs. occipitocervical fusion.\u00a0"
     }
 },
 {
     "model": "blog.plan",
     "pk": 7,
+    "fields": {
+        "Category": "Cervical_spine",
+        "Injury": "C2 (Axis) fracture",
+        "Injury_key": "c2_(axis)_fracture",
+        "Acute_plan_checklist": "Get AP, lateral, and open mouth odontoid XRs\nGet CT\nGet Anderson and D'Alonzo classification\nAssess for os odontoideum\nCalculate ADI\nCalculate SAC\nConduct neuro exam\nConsider CT angiogram\nConsider MRI",
+        "Acute_plan_reasons": "Get AP, lateral, and open mouth odontoid XRs: Calculate ADI, SAC from normal XRs. \nConsider flexion-extension views: Required for pre-operative clearance and ideal ADI and SAC, but do not order them in ED without discussion with senior.\nGet CT: Method of choice.\nGet Anderson and D'Alonzo classification: Based off CT. Type I,II,III.\nAssess for os odontoideum: Looks like Type II, may represent old traumatic process.\nGet Landells atlas fracture classification: Based off CT. Type I,II,III.\nCalculate ADI: \nFrom lateral. Distance b/w odontoid and anterior atlas. \n>3mm is unstable in adults, >5mm is unstable in children,  >10mm is indication for surgery in RA\nCalculate SAC:\nFrom lateral. Distance b/w odontoid and to posterior atlas.\n<13mm is unstable, <14mm is indication for surgery in RA patients.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider CT angiogram: Discuss with senior. Required to assess vertebral body if doing  posterior fusion. \nConsider MRI: Discuss with senior. If neurologic symptoms present.",
+        "Follow_up": "Trauma service involvement: Considered high energy injury, recommend Aspen collar and observation for 24hrs\nPost for OR: Type II fractures. Post for posterior C1-C2 fusion vs anterior odontoid osteosynthesis.\u00a0"
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 8,
+    "fields": {
+        "Category": "Cervical_spine",
+        "Injury": "Traumatic axial spondylolisthesis (Hangman's fracture)",
+        "Injury_key": "traumatic_axial_spondylolisthesis_(hangmans_fracture)",
+        "Acute_plan_checklist": "Get CT\nConsider flexion-extension views in ED\nAssess for other spine injuries\nConduct neuro exam\nConsider MRA\nConsider MRI",
+        "Acute_plan_reasons": "Get CT: \nMethod of choice. \nIdentify bilateral C2 pars fractures. Identify facet dislocation\nConsider flexion-extension views in ED: \nDiscuss with senior.\nWill show C2 subluxating off C3. Identify facet dislocation. \nAssess for other spine injuries: 30% concomitant c-spine injuries\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider MRA: Discuss with senior. If suspicious for vertebral artery injury.\nConsider MRI: Discuss with senioir. If neurological symptoms.",
+        "Follow_up": "Trauma service involvement: Considered high energy injury, recommend Aspen collar and observation for 24hrs\nPost for OR: Cervical fusion if neurologic symptoms."
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 9,
     "fields": {
         "Category": "Hip",
         "Injury": "Hip dislocation",
@@ -85,7 +109,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 8,
+    "pk": 10,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skeletal traction",
@@ -97,7 +121,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 9,
+    "pk": 11,
     "fields": {
         "Category": "Rotations",
         "Injury": "Pediatrics",

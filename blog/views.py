@@ -11,7 +11,6 @@ def base(request):
 
 def plan_list(request):
     plans = Plan.objects.all()
-    print(plans)
     return render(request, 'blog/plan_list.html', {'plans': plans})
 
 def sidebar(request):
@@ -36,5 +35,4 @@ def plan_detail_toggle(request, Injury_key):
 		"Acute_plan_checklist": plan.Acute_plan_checklist,
 		"Acute_plan_reasons": plan.Acute_plan_reasons
 	}
-	print(plan_detail_toggle)
 	return JsonResponse({'plan_detail_toggle': plan_detail_toggle})
