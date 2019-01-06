@@ -352,6 +352,18 @@
     "pk": 30,
     "fields": {
         "Category": "Procedures",
+        "Injury": "Skin traction",
+        "Injury_key": "skin_traction",
+        "Acute_plan_checklist": "",
+        "Acute_plan_reasons": "",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 31,
+    "fields": {
+        "Category": "Procedures",
         "Injury": "Shoulder aspiration",
         "Injury_key": "shoulder_aspiration",
         "Acute_plan_checklist": "",
@@ -361,7 +373,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 31,
+    "pk": 32,
     "fields": {
         "Category": "Procedures",
         "Injury": "Coapdation splint",
@@ -373,7 +385,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 32,
+    "pk": 33,
     "fields": {
         "Category": "Rotations",
         "Injury": "Night float",
