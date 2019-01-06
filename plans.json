@@ -115,8 +115,8 @@
         "Injury": "Subaxial vertebral body fractures",
         "Injury_key": "subaxial_vertebral_body_fractures",
         "Acute_plan_checklist": "Get standing AP, lateral of cervical spine\nGet CT\nGet descriptive classification\nConduct neuro exam\nConsider MRI",
-        "Acute_plan_reasons": "Get standing AP, lateral XRs: Need standing xrays to assess kyphosis, which determines fracture stability\nGet CT: method of choice to assess for any bony retropulsion\nGet descriptive classification: compression, burst, flexion-distraction, facet dislocation, facet fracture\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider MRI:\nDiscuss with senior.\nGet if there are neurologic deficits, particularly as to assess posterior ligamentous complex injury.",
-        "Follow_up": ""
+        "Acute_plan_reasons": "Get CT: Method of choice to assess for kyphosis to assess stability and any bony retropulsion.\nGet standing AP, lateral XRs: Need standing xrays to assess kyphosis, and also to compare during follow-up. \nGet descriptive classification: compression, burst, flexion-distraction, facet dislocation, facet fracture\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider MRI:\nDiscuss with senior.\nGet if there are neurologic deficits, particularly as to assess posterior ligamentous complex injury.",
+        "Follow_up": "Trauma service involvement: Considered high energy injury, recommend Aspen collar and observation for 24hrs\nPost for OR: Post for closed reduction with Gardner-Wells tongs in OR if neurologic symptoms with dislocation present."
     }
 },
 {
@@ -127,13 +127,37 @@
         "Injury": "Cervical extension teardrop fracture",
         "Injury_key": "cervical_extension_teardrop_fracture",
         "Acute_plan_checklist": "Define it\nGet standing AP/lateral XRs\nGet CT\nConduct neuro exam\nConsider central cord syndrome\nConsider MRI\n",
-        "Acute_plan_reasons": "\"Define it: Avulsion of anterioinferior corner of vertebral body, due to hyperextension.\nGet standing AP/lateral XRs: Identify the triangular shaped (hence \"\"teardrop\"\") fragment, assess anterior disc space for widening \nGet CT: Method of choice. Identify any other fracture extension.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider central cord syndrome: Associted due to buckling of ligamentum flavum during hyperextension.\nConsider MRI:\nDiscuss with senior.\nGet if neuro deficits present or you suspect central cord syndrome.\"",
+        "Acute_plan_reasons": "Define it: Avulsion of anterioinferior corner of vertebral body, due to hyperextension.\nGet standing AP/lateral XRs: Identify the triangular shaped (hence 'teardrop') fragment, assess anterior disc space for widening \nGet CT: Method of choice. Identify any other fracture extension.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider central cord syndrome: Associted due to buckling of ligamentum flavum during hyperextension.\nConsider MRI:\nDiscuss with senior.\nGet if neuro deficits present or you suspect central cord syndrome.",
         "Follow_up": "Discharge in hard cervical collar if no neuro deficits"
     }
 },
 {
     "model": "blog.plan",
     "pk": 12,
+    "fields": {
+        "Category": "Cervical_spine",
+        "Injury": "Central cord syndrome/cervical stenosis",
+        "Injury_key": "central_cord_syndrome_cervical_stenosis",
+        "Acute_plan_checklist": "",
+        "Acute_plan_reasons": "Define it: Avulsion of anterioinferior corner of vertebral body, due to hyperextension.\nGet standing AP/lateral XRs: Identify the triangular shaped (hence 'teardrop') fragment, assess anterior disc space for widening \nGet CT: Method of choice. Identify any other fracture extension.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider central cord syndrome: Associted due to buckling of ligamentum flavum during hyperextension.\nConsider MRI:\nDiscuss with senior.\nGet if neuro deficits present or you suspect central cord syndrome.",
+        "Follow_up": "Discharge in hard cervical collar if no neuro deficits"
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 13,
+    "fields": {
+        "Category": "Thoracolumbar_spine",
+        "Injury": "Thoracolumbar fracture",
+        "Injury_key": "thoracolumbar_fracture",
+        "Acute_plan_checklist": "Get full spine AP/lateral XRs\nGet full spine CT\nCalculate TLICS\nConsider MRI\n",
+        "Acute_plan_reasons": "\"Get full spine CT: Method of choice. Full spine needed b/c 20% concomitant spine fractures.\nGet full spine AP/lateral XRs: Mainly used for follow-up in clinic to assess alignment.\nGet MRI:\nCalculate TLICS: <a href=\"\"https://www.mdapp.co/thoracolumbar-injury-classification-and-severity-tlics-score-calculator-283/\"\">TLICS calculator</a>\n\"",
+        "Follow_up": "Discharge in hard cervical collar if no neuro deficits"
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 14,
     "fields": {
         "Category": "Hip",
         "Injury": "Hip dislocation",
@@ -145,7 +169,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 13,
+    "pk": 15,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skeletal traction",
@@ -157,7 +181,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 14,
+    "pk": 16,
     "fields": {
         "Category": "Rotations",
         "Injury": "Pediatrics",
