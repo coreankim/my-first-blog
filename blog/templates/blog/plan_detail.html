@@ -14,7 +14,7 @@
 			
 			     	{% else %}
 			        <label style="width:150px;"><u><h3>Acute Plan</h3></u></label>
-					<button type="button" class="btn btn-primary" Injury_key="{{ plan.Injury_key }}" id="plan-detail-button" data-state="unclicked">Detail
+					<button type="button" class="btn btn-primary" Injury_key="{{ plan.Injury_key }}" id="plan-detail-button" data-state="unclicked">Expand
 					</button>
 					<br>
 			        <span id="acute-plan-info">
@@ -22,10 +22,10 @@
 			        </span>
 				<br>
 
-				<div id="follow-up">
+<!-- 				<div id="follow-up">
 			        <u><h3>Follow Up</h3></u>
 			        <p>{{ plan.Follow_up|safe|linebreaksbr }}</p>
-			    </div>
+			    </div> -->
 				{% endif %}
 		    </div>
 		</div>

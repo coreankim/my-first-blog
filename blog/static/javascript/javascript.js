@@ -64,11 +64,11 @@ console.log("Im working!")
 				console.log(acute_plan_checklist)
 				if (data_state === "unclicked") {
 					$('#plan-detail-button').attr("data-state", "clicked")
-					$('#plan-detail-button').text("No detail")
+					$('#plan-detail-button').text("Collapse")
 					$('#acute-plan-info').html("<p>"+acute_plan_edited.replace(/\"/g, "").replace(/\%%/g, ":")+"<br></p>")
 				} else if (data_state === "clicked") {
 					$('#plan-detail-button').attr("data-state", "unclicked")
-					$('#plan-detail-button').text("Detail")
+					$('#plan-detail-button').text("Expand")
 					$('#acute-plan-info').html("<p>"+acute_plan_checklist.replace(/\\n/g, '<br>').replace(/\"/g, "")+"<br></p>")
 				}
 			}
