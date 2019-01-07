@@ -7,7 +7,4 @@ db.sqlite3
 .DS_Store
 local_settings.py
 python_psql.py
-views_backup5.py
-base_backup5.html
-javascript_backup5.js
 /files
