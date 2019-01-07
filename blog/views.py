@@ -31,7 +31,7 @@ def plan_detail(request, Injury_key):
 			newText = acute_plan[i].replace(":","\n")
 		newTextList.append(newText)
 	acute_plan_checklist = " ".join(newTextList)
-	if plan.Category in ["Procedures", "Rotations", "Attending Preferences", "Templates", "Contact Info", "Education Sources"]:
+	if plan.Category in ["Procedures", "Rotations_logistics", "Attending Preferences", "Templates", "Contact Info", "Education Sources"]:
 		plan.Acute_plan = plan.Acute_plan
 	else:
 		plan.Acute_plan = acute_plan_checklist
