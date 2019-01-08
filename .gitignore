@@ -8,3 +8,6 @@ db.sqlite3
 local_settings.py
 python_psql.py
 /files
+views_backup.py
+plan_detail_backup.py
+javascript_backup.py

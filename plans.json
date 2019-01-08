@@ -58,6 +58,28 @@
     "model": "blog.plan",
     "pk": 6,
     "fields": {
+        "Category": "Hand",
+        "Injury": "Tendon injuries",
+        "Injury_key": "tendon_injuries",
+        "Acute_plan": "",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 7,
+    "fields": {
+        "Category": "Hand",
+        "Injury": "Nailbed injuries",
+        "Injury_key": "Nailbed_injuries",
+        "Acute_plan": "<u>Ask on the phone:</u>\nX-ray of digit\nNPO status/sedation time (ED HATES sedating for this)\nLidocaine at bedside\nAncef/tetanus?\n\n<u>What to grab/order before seeing consult:</u>\nPlain films to assess for underlying fracture and/or level of amp\n\n<u>Physical exam</u>\nComplete exam \u2013 sensation, motor (tendons involved?)\n\n<u>Interventions in the ED</u>\n\u2022 NAILBED: after block, remove nail (using freer borrowed from OR blunt, rounded edge of scissors in suture tray). Irrigate the nailbed lac and repair with 3-0 or 5-0 chromic (ALWAYS ABSORBABLES). Replace the nail under nail fold after sterilizing in betadine and rinsing. Use a stitch at each corner of nailfold and each distal corner to hold in place (chromic). Can use folded xeroform foil if nail damaged/lost. Dress in xeroform, 2x2s, cling gauze and alumifoam finger splint (bent in U over whole digit) held in place with tape.\no Use suture to put everything grossly in place\no Then use dermabond to stick everything together\no Splint with either nail, foil, or xeroform (AFTER dermabond dries)\n\n<u>Special Considerations for this consult:</u>\nAncef/tetanus in ED, Keflex x 7 days",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 8,
+    "fields": {
         "Category": "Cervical_spine",
         "Injury": "Occipitocervical injury",
         "Injury_key": "occipitocervical_injury",
@@ -67,7 +89,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 7,
+    "pk": 9,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "C1 (Atlas) fracture",
@@ -78,7 +100,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 8,
+    "pk": 10,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "C2 (Axis) fracture",
@@ -89,7 +111,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 9,
+    "pk": 11,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Traumatic axial spondylolisthesis (Hangman's fracture)",
@@ -100,7 +122,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 10,
+    "pk": 12,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Cervical facet injuries",
@@ -111,7 +133,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 11,
+    "pk": 13,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Subaxial vertebral body fractures",
@@ -122,7 +144,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 12,
+    "pk": 14,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Cervical extension teardrop fracture",
@@ -133,7 +155,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 13,
+    "pk": 15,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Central cord syndrome/cervical stenosis",
@@ -144,7 +166,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 14,
+    "pk": 16,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Thoracolumbar fracture",
@@ -155,7 +177,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 15,
+    "pk": 17,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Chance fracture (flexion-distraction injury)",
@@ -166,7 +188,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 16,
+    "pk": 18,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Thoracolumbar fracture-dislocation",
@@ -177,7 +199,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 17,
+    "pk": 19,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Thoracolumbar compression fracture",
@@ -188,7 +210,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 18,
+    "pk": 20,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Cauda equina syndrome and lumbar stenosis",
@@ -199,7 +221,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 19,
+    "pk": 21,
     "fields": {
         "Category": "Spine_infection",
         "Injury": "Vertebral osteomyelitis",
@@ -210,7 +232,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 20,
+    "pk": 22,
     "fields": {
         "Category": "Spine_infection",
         "Injury": "Spinal epidural abscess",
@@ -221,7 +243,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 21,
+    "pk": 23,
     "fields": {
         "Category": "Spine_infection",
         "Injury": "Post-operative infection",
@@ -232,7 +254,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 22,
+    "pk": 24,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "APC pelvic ring fracture",
@@ -243,7 +265,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 23,
+    "pk": 25,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "LC pelvic ring fracture",
@@ -254,7 +276,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 24,
+    "pk": 26,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Vertical pelvic ring fracture",
@@ -265,7 +287,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 25,
+    "pk": 27,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Pubic rami fracture",
@@ -276,7 +298,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 26,
+    "pk": 28,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Acetabulum fracture",
@@ -287,7 +309,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 27,
+    "pk": 29,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Sacral fracture",
@@ -298,7 +320,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 28,
+    "pk": 30,
     "fields": {
         "Category": "Hip",
         "Injury": "Hip dislocation",
@@ -309,7 +331,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 29,
+    "pk": 31,
     "fields": {
         "Category": "Hip",
         "Injury": "Femoral neck",
@@ -320,7 +342,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 30,
+    "pk": 32,
     "fields": {
         "Category": "Hip",
         "Injury": "Proximal femur periprosthetic fracture",
@@ -331,7 +353,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 31,
+    "pk": 33,
     "fields": {
         "Category": "Hip",
         "Injury": "Intertrochanteric femur",
@@ -342,7 +364,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 32,
+    "pk": 34,
     "fields": {
         "Category": "Hip",
         "Injury": "Subtrochanteric femur",
@@ -353,7 +375,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 33,
+    "pk": 35,
     "fields": {
         "Category": "Femur",
         "Injury": "Femoral shaft fracture",
@@ -364,7 +386,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 34,
+    "pk": 36,
     "fields": {
         "Category": "Femur",
         "Injury": "Distal femur fracture",
@@ -375,7 +397,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 35,
+    "pk": 37,
     "fields": {
         "Category": "Femur",
         "Injury": "Distal femur periprosthetic fracture",
@@ -386,7 +408,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 36,
+    "pk": 38,
     "fields": {
         "Category": "Knee",
         "Injury": "Knee dislocation",
@@ -397,7 +419,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 37,
+    "pk": 39,
     "fields": {
         "Category": "Knee",
         "Injury": "Tibial plateau fracture",
@@ -408,7 +430,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 38,
+    "pk": 40,
     "fields": {
         "Category": "Knee",
         "Injury": "Patella fracture",
@@ -419,7 +441,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 39,
+    "pk": 41,
     "fields": {
         "Category": "Knee",
         "Injury": "Knee periprosthetic fracture",
@@ -430,7 +452,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 40,
+    "pk": 42,
     "fields": {
         "Category": "Tibia",
         "Injury": "Tibial shaft fracture",
@@ -441,7 +463,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 41,
+    "pk": 43,
     "fields": {
         "Category": "Tibia",
         "Injury": "Pilon fracture",
@@ -452,7 +474,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 42,
+    "pk": 44,
     "fields": {
         "Category": "Ankle_foot",
         "Injury": "Ankle fracture",
@@ -463,34 +485,12 @@
 },
 {
     "model": "blog.plan",
-    "pk": 43,
-    "fields": {
-        "Category": "Pediatrics",
-        "Injury": "Elbow supracondylar fracture",
-        "Injury_key": "elbow_supracondylar_fracture",
-        "Acute_plan": "\u2022 Do I have adequate xrays? Need a good lateral for type 2\u2019s:\n\u2022 To start out you should get ipsilateral forearm xrays, 10% incidence:\n\u2022 Neurovascular status, Need to take down splint and check skin and pulse, compartment check- no pulse, but good cap refill is OK in kids but make senior resident aware. Admit o/n for NV checks:\n\u2022 Extension type- AIN most common nerve injury:\n\u2022 NPO status? No need for lab work:\n\u2022 Long Arm Splint:\n\u2022 Consent/Mark Patient :\n\u2022 \u201cIf I have to push on it, it gets pinned\u201d \u2013 G. Thompson:\n\u2022 SPECIAL NOTE: Regardless of displacement of SCHFx, a patient who has an ipsilateral forearm fracture MUST be admitted for compartment checks as there is a 33% incidence of compartment syndrome:",
-        "Follow_up": ""
-    }
-},
-{
-    "model": "blog.plan",
-    "pk": 44,
-    "fields": {
-        "Category": "Pediatrics",
-        "Injury": "Distal radius / Both bone forearm fracture",
-        "Injury_key": "distal_radius_both_bone_forearm_fracture",
-        "Acute_plan": "\u2022 Neurovascular status:\n\u2022 NPO status? No need for lab work:\n\u2022 Does it need a reduction with full sedation or morphine versed:\n\u2022 C- Arm,  finger traps, hematoma block, measure out splint on opposite arm so when pediatric ER is ready to go, you are ready to go:\n\u2022 Sugar tong splint, get a good mold, use palms, amount of sup/pro depends on fx stability (prepare for cast index as pimp question):\n\u2022 You may want to use fluoro to know where to put your hands, recreate deformity SLOWLY and controlled, don\u2019t forget to use pronation/supination to your advantage when reducing:\n\u2022 Post reduction films:",
-        "Follow_up": ""
-    }
-},
-{
-    "model": "blog.plan",
     "pk": 45,
     "fields": {
         "Category": "Pediatrics",
-        "Injury": "SCFE",
-        "Injury_key": "scfe",
-        "Acute_plan": "\u2022 AP pelvis, bilateral hip films:\n\u2022 Get endocrine labs (anesthesia may obtain labs in OR to avoid sticking awake child):\n\u2022 Post, mark and consent (add possible CRPP contralateral hip):\n",
+        "Injury": "Pediatric elbow supracondylar fracture",
+        "Injury_key": "elbow_supracondylar_fracture",
+        "Acute_plan": "<u>Ask on the phone:</u>\nOpen vs. closed\nNeurovascular status\nAdequate x-rays? \n- Need a perfect lateral, especially for Type II (check this on PACS while on phone)\n- Look at your lines to determine whether its type I or type II\nNPO time: 8 hours for solids, 6 hours for milk, 4 hours for clears\n\n<u>What to grab before seeing consult:</u>\nConsent form - closed versus open reduction of supracondylar humerus fracture with percutaneous pinning\nSplint materials (long arm splint)\n\n<u>Physical exam:</u>\nIpsilateral wrist pain?: Get ipsilateral forearm/wrist x-rays (10% incidence of distal radius fracture)\nAIN intact?: Most common nerve injury for extension type\nUlnar nerve intact?: Most common nerve injury for flexion type\nVascular status: Anything outside norm (no pulse with brisk cap refill) necessitates IMMEDIATE call to PGY-4\n<b>SPECIAL ATTENTION:</b>\n- Any patient with type II/III SCHFx and ipsilateral displaced forearm/wrist fracture MUST BE ADMITTED for compartment checks as there is a 33% incidence of compartment syndrome \n- Common pimp question: Where is this fact from? Blakemore et al. w/ Cooperman and Thompson, CORR 2000\n\n<u>Interventions in ED:</u>\nLong Arm Splint in position of comfort, never flex past 90 degrees (risk of compartment syndrome)\n\n<u>If operative, before calling PGY4 and attending:</u>\nConsent/Mark Patient for Closed vs Open Reduction of Supracondylar Humerus with Percutaneous Pinning\n- Higher likelihood of open reduction with flexion type injuries\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO\nCall to ask for OR availability today and tomorrow.\nAsk for clearance:\n- Refer to pre-operative clearance  guide.\n- If overnight, call anesthesia.\n- If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n- If trauma activation, call trauma.\n- If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals/set-up:\n- Will need 3 Steinmann pins from the OrthoPaediatrics set, with 3 wires diverigng at the fracture site. \n- Patient will be supine on a radiolucent flat-top OR table.\n\n<u>Wrap-up, if operative:</u>\nAdmit to ortho if Type II/III fracture. Follow neurovascular exam throughout the night if going the next day.\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n<u>Wrap-up, if non-operative:</u>\nType I may be discharged after discussion with senior. Get a good phone number.\n\n<u>Common pimp questions:</u>\nCompartment syndrome in Type II/III SCHFx with ipsilateral forearm fracture, from Blakemore et al. w/ Cooperman and Thompson, CORR 2000",
         "Follow_up": ""
     }
 },
@@ -499,9 +499,9 @@
     "pk": 46,
     "fields": {
         "Category": "Pediatrics",
-        "Injury": "Pediatric septic hip",
-        "Injury_key": "pediatric_septic_hip",
-        "Acute_plan": "\u2022 Examine entire extremity:\n\u2022 XR, CBC, ESR, CRP:\n\u2022 Kocher\u2019s criteria (NWB, Temp >38.5, ESR >40, WBC >12k) :\no 4/4=99%, :\no \u00be=93%, :\no 2/4= 40% (more likely to be transient synovitis):\n\u2022 If indicated, most adults go straight to U/S-guided aspiration, kids get an MRI to also r/o OM, often of the entire leg because exam is often unable to localize their pain (especially if very young):\n\u2022 They stay in the ED until they can get their MRI under sedation or they get admitted to Peds until they can. :",
+        "Injury": "Pediatric elbow lateral epicondyle fracture",
+        "Injury_key": "elbow_lateral_epicondyle_fracture",
+        "Acute_plan": "<u>Ask on the phone:</u>\nAdequate X-rays (elbow, forearm) - NEEDS internal oblique view of elbow (common pimp question)\nNPO status (often needs OR): 8hrs for solids, 6hrs for milk, 4hrs for clears\n\n<u>What to grab/order before seeing consult:</u>\nSplinting materials (long arm splint)\nConsent form: \u201cOpen reduction and operative fixation of lateral epicondyle fracture\u201d (> 2 mm displacement on any view, including internal oblique)\nFinger traps vs. kerlix, IV pole (if needed for splint)\n\n<u>Wrap-up, if operative:</u>\nMost lateral epicondyle fractures need admission to ortho\n\n<u>Common pimp questions:</u>\nNEED internal oblique view of elbow\n",
         "Follow_up": ""
     }
 },
@@ -510,15 +510,59 @@
     "pk": 47,
     "fields": {
         "Category": "Pediatrics",
-        "Injury": "Pediatric femur fracture",
-        "Injury_key": "pediatric_femur_fracture",
-        "Acute_plan": "\u2022 While on the phone ask them to call for traction cart and a traction bed if shaft fracture. This takes time get them to start working on it immediately:\n\u2022 Need full femur films:\n\u2022 What is the age and weight of the patient?:\no If patient is under 3 years old, recommend NAT workup because it is hospital policy.  If <100lbs->flexinails; >100lbs->IM nail:\n\u2022 What kind of fracture pattern? Transverse vs spiral etc:\n\u2022 Neurovascular status:\n\u2022 Does it need Skin traction?:\no Diaphyseal fractures usually do:\no I use ~1 pound per year of age up to 5 pounds:\no Go to cast room before seeing patient and bring down the skin traction :\n\u2022 Almost all distal physeal femur fractures need operative fixation because of risk of deformity:\n\u2022 Consent and mark:",
+        "Injury": "Pediatric elbow dislocation",
+        "Injury_key": "pediatric_elbow_dislocation",
+        "Acute_plan": "<u>Ask on the phone:</u>\nOpen vs. closed\nNeurovascular status\nAdequate x-rays (elbow, forearm)\nNPO time (NEEDS sedation): 8 hours for solids, 6 hours for milk, 4 hours for clears\n\n<u>What to grab/order before seeing consult:</u>\nFluoro machine (put order in)\nSplinting materials (long arm splint)\nFinger traps vs. kerlix, IV pole\nPost-reduction x-ray (order before reduction so you can wheel directly to x-ray after splinting; speeds things up)\nNote: Above can be set up as soon as you see consult, even if ED not ready for sedation. That way they know that, when they\u2019re ready, you\u2019re ready (they\u2019re less likely to call 30 mins before they\u2019re actually ready)\n\nReduction:\n- ALWAYS under sedation\n- Maneuver: Traction in extension and then flex it up will pushing olecranon anteriorly with thumb (think of how we reduce supracondylar fractures)\n- Make sure joint is reduced on PERFECT lateral (otherwise, impossible to tell for sure)\n- Check for medial condyle entrapment! <b>Maneuver if entrapped:</b> Wrist extension, elbow extension, valgus stress, pull traction\n- Range the joint under dynamic fluoro and determine if/when unstable/pops out. You need to document this with fluoro AND in EMR\n- Check stability to varus/valgus stress\n\nPost reduction X-ray:\n- Need a PERFECT lateral!\n- Check radiocapitellar line and anterohumeral line\n- Check for medial condyle entrapped in joint. If unsure, call your senior and ask if they want a CT\n- If entrapped, wrist extension, elbow extension, valgus stress, pull traction",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
     "pk": 48,
+    "fields": {
+        "Category": "Pediatrics",
+        "Injury": "Distal radius / Both bone forearm fracture",
+        "Injury_key": "distal_radius_both_bone_forearm_fracture",
+        "Acute_plan": "<u>Ask on the phone:</u>\nOpen vs. closed\nNeurovascular status\nAdequate imaging (wrist, forearm, elbow); check this on PACS while on phone\nLidocaine at bedside\nDoes it need a reduction with full sedation or morphine/versed?\n\n<u>What to grab/order before seeing consult:</u>\nFluoro machine (put order in)\nSplint materials (sugar tong; get a good mold!); measure out on contralateral arm\nFinger traps vs. kerlix, IV pole\nPost-reduction x-ray (order before reduction so you can wheel directly to x-ray after splinting; speeds things up)\nNote: Above can be set up as soon as you see consult, even if ED not ready for sedation. That way they know that, when they\u2019re ready, you\u2019re ready (they\u2019re less likely to call 30 mins before they\u2019re actually ready) \n\n<u>Interventions in the ED</u>\nSugar tong splint, get a good mold, use palms\nUse fluoro to know where to put your hands, recreate deformity SLOWLY and controlled, don\u2019t forget to use pronation/supination to your advantage when reducing\n",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 49,
+    "fields": {
+        "Category": "Pediatrics",
+        "Injury": "SCFE",
+        "Injury_key": "scfe",
+        "Acute_plan": "<u>Ask on the phone:</u>\nAdequate x-rays (AP pelvis, bilateral hip films)\nAble to ambulate?\nNPO time (if unstable) \nConsider endocrine labs (TSH, BMP) if age < 10 years or skinny (anesthesia may obtain labs in OR to avoid sticking awake child)\n\n<u>What to grab/order before seeing consult:</u>\nConsent form: \u201cClosed reduction percutaneous fixation of hip, possible CRPP of contralateral hip)\n\n<u>Physical exam:</u>\nUnstable? (child cannot walk with or without crutches). If so, call senior immediately. Some attendings (Dr. Son-Hing) will do overnight\nPatient should be NWB\n\n<u>Common Pimp Questions:</u>\nAcute vs. Chronic (< 3 weeks vs. > 3 weeks)\nStable vs. Unstable (Able to ambulate with or without crutches?); Unstable is orthopedic emergency\nUnstable SCFE gets titanium screw. Higher incidence of AVN (*** vs. ***), and titanium screws have less artifact on MRI)\n",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 50,
+    "fields": {
+        "Category": "Pediatrics",
+        "Injury": "Pediatric septic hip",
+        "Injury_key": "pediatric_septic_hip",
+        "Acute_plan": "<u>Ask on the phone:</u>\nAdequate x-rays\nAble to ambulate?\nAdequate labs: CBC, ESR, CRP\nFebrile?\nNPO time (NEEDS sedation): 8 hours for solids, 6 hours for milk, 4 hours for clears\n\n<u>What to grab/order before seeing consult:</u>\no Consent form: \u201cIrrigation and debridement of hip, possible irrigation and debridement of femur\u201d\n\n<u>Physical exam:</u>\nExamine entire extremity (erythema more consistent with cellulitis); if hip pain, check knee. If knee pain, check hip!\n\n<u>Check Kocher criteria:</u>\nImportance of findings: T (>38.5) > CRP (>2) > ESR (>40) > Inability to bear weight >WBC (>12) \no 4/4=99%, \no \u00be=93%, \no 2/4= 40% (more likely to be transient synovitis)\n\n<u>Interventions in the ED:</u>\nIf indicated, kids get an MRI to also r/o OM, often of the entire leg because exam is often nonspecific to specific location of pain (especially if very young).\n<b>NOTE:</b> In any kid with extremity pain and any elevated inflammatory markers (even if only one), consider getting an MRI of the entire extremity to rule out osteomyelitis, etc. (discuss with senior first). Even if only with one elevated inflammatory marker, do NOT send kid home without discussing with senior/attending\nThey stay in the ED until they can get their MRI under sedation or they get admitted to PCRS \nConsider trial of NSAIDs for possible transient synovitis while waiting on labs/etc.\nRelevant .phrase for HPI: .septic hip (Trivedi)",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 51,
+    "fields": {
+        "Category": "Pediatrics",
+        "Injury": "Pediatric femur fracture",
+        "Injury_key": "pediatric_femur_fracture",
+        "Acute_plan": "<u>Ask on the phone:</u>\nAge/weight of patient\n- If patient is under 3 years old, recommend NAT work-up, per hospital policy\nAdequate x-rays (hip, full length femur)\nNeurovascular status\nNPO time\n\n<u>What to grab/order before seeing consult:</u>\nConsent form: \u201cOperative fixation of femur fracture, possible application of Spica cast\u201d\nSkin traction if shortened:\n- Diaphyseal fractures usually do\n- Use ~1 pound per year of age up to 5 pounds\n- Go to cast room before seeing patient and bring down the skin traction\nIf not shortened, long leg splint: Will need a VERY long leg splint. Posterior/lateral slabs should go proximal to butt. Ace wrap goes around waste. Splint in 10-20 degrees of flexion\n\n<u>Special Considerations:</u>\nAlmost all displaced distal physeal femur fractures need operative fixation because of risk of repeat displacement",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 52,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Non-accidental trauma",
@@ -529,18 +573,18 @@
 },
 {
     "model": "blog.plan",
-    "pk": 49,
+    "pk": 53,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Radial head fracture/dislocation",
         "Injury_key": "radial_head_fracture_dislocation",
-        "Acute_plan": "Radial Head Fracture/Dislocation\n- On the phone:\no Adequate X-rays (elbow, forearm)\no NPO status/sedation time (VERY difficult to reduce. Will likely require sedation)\n- What to grab/order before seeing consult:\no Fluoro machine (put order in)\no Splinting materials (long arm splint)\no Consent form: \u201cOperative fixation of radial head dislocation\u201d just in case (very difficult reduction)\no Finger traps vs. kerlix, IV pole\no Post-reduction x-ray (order before reduction so you can wheel directly to x-ray after splinting; speeds things up)\no Note: Above can be set up as soon as you see consult, even if ED not ready for sedation. That way they know that, when they\u2019re ready, you\u2019re ready (they\u2019re less likely to call 30 mins before they\u2019re actually ready)\n- Special Considerations for this consult:\no Very difficult reduction. Review maneuvers on Orthobullets before attempting reduction (Israeli, Patterson, etc.)",
+        "Acute_plan": "<u>Ask on the phone:</u>\nAdequate X-rays (elbow, forearm)\nNPO status/sedation time (VERY difficult to reduce. Will likely require sedation)\n\n<u>What to grab/order before seeing consult:</u>\nFluoro machine (put order in)\nSplinting materials (long arm splint)\nConsent form: \u201cOperative fixation of radial head dislocation\u201d just in case (very difficult reduction)\nFinger traps vs. kerlix, IV pole\nPost-reduction x-ray (order before reduction so you can wheel directly to x-ray after splinting; speeds things up)\nNote: Above can be set up as soon as you see consult, even if ED not ready for sedation. That way they know that, when they\u2019re ready, you\u2019re ready (they\u2019re less likely to call 30 mins before they\u2019re actually ready)\n\n<u>Interventions in the ED:</u>\nVery difficult reduction. Review maneuvers on Orthobullets before attempting reduction (Israeli, Patterson, etc.)",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 50,
+    "pk": 54,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skeletal traction",
@@ -551,7 +595,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 51,
+    "pk": 55,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skin traction",
@@ -562,7 +606,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 52,
+    "pk": 56,
     "fields": {
         "Category": "Procedures",
         "Injury": "Joint aspiration",
@@ -573,7 +617,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 53,
+    "pk": 57,
     "fields": {
         "Category": "Procedures",
         "Injury": "Reductions",
@@ -584,7 +628,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 54,
+    "pk": 58,
     "fields": {
         "Category": "Procedures",
         "Injury": "Splints",
@@ -595,7 +639,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 55,
+    "pk": 59,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Night Float Guide",
@@ -606,18 +650,29 @@
 },
 {
     "model": "blog.plan",
-    "pk": 56,
+    "pk": 60,
     "fields": {
         "Category": "Rotations_logistics",
-        "Injury": "Preoperative Clearance Guide",
-        "Injury_key": "preoperative_clearance_guide",
-        "Acute_plan": "\"<b>Guide to medicine and anesthesia consult, from Jamie Kyriakedenes:</b><br>\n#1)<u><b> Cases that will ALWAYS be admitted to medicine</u></b>\n- Significant comorbidities that are a constant threat to life and your 'hunch' is that they will require preoperative diagnostics\n- These can include Echo for CHF that may be decompensating or stress test for new angina, EKG showing RVR or new afib, prolonged hospitalization for recovery from surgery with needs like dialysis, acute hypoxia, needs syncopal workup, etc\n- Always admit these medically unstable patients to medicine. Think ASA status 3-4. <u><a href='https://my.clevelandclinic.org/health/articles/asa-physical-classification-system'>Link to ASA</a></u>\n\n#2)<u><b> Cases that may be admitted to medicine vs Ortho+Dr.Sidagam* (see below)</u></b>\n- Patient has a list of comorbidities, but your hunch is that they are medically stable\n- These can include well-controlled DM, HTN, CKD, asthma, mild/stable CHF. Blood glucose isn't wildly out of control (not worried about DKA). SysBP isn't 200s. Some baseline SOB without acute worsening. Cr/BUN is somewhat elevated but at baseline, not new this admission. You get the point, think ASA 2-3 patients. \n- These patients might need additional preoperative diagnostic studies, but it is not every time, thus requires more work-up:\n\n * A) <u>You choose to pursue admission to medicine.</u>\nIf you stop there and leave the hospital, the medicine team may not round on this patient until 1 pm, they then realize OSH records are needed, etc may not get around to clearing patient until the afternoon or later. Therefore, if you admit to medicine, personally call the medicine team (obtain pager # from ED) and let them know that we are trying to do the case at 10:00 am (or whatever our attending seems to indicate the order will be- ask chief if questions), and to please round on this patient FIRST, to plan to evaluate and optimize patient by that time, and let us know as soon as possible if they have concerns about the patient's ability to be taken to surgery that morning. Dr. Sidagam can also be involved in this situation, but the medicine attending should request and/or be aware of you involving Dr. Sidagam (per Sidagam).\n \n* B) <u>You choose to admit to Ortho and consult Dr. Sidagam for preoperative clearance (+/- postop comanagement).</u>\nYou must then either call Dr. Sidagam around 8:30-9 when he comes in (phone 66867), or CLEARLY sign this task out to the Dayfloat team (or other resident covering that new admission). In this situation (and actually likely either situation 1 or 2 for these sick patients), you would be wise to not expect a 730 first-start, and should temper expectations of the ortho-trauma attending accordingly.\n\n#3) <u><b>Regarding calling anesthesia about a patient preoperatively:</u></b>\nYou should always call the anesthesiologist on-call overnight when you think a patient needs to go to OR that following MORNING (or you have high suspicion that our attending will try to take patient to OR that morning..) and the patient has one of the \"\"CARDIAC\"\" CONDITIONS* below that you feel \"\"might\"\" require further workup. We will continue to go back and forth with anesthesia on what is appropriate and what is not appropriate for overnight calls, and our current opinion is that cardiac/cardiovascular/cardiopulmonary issues most often cause delays in cases, and are important for them to start reviewing as soon as possible. Not infrequently, anesthesia may require further workup even though the medicine team \"\"cleared\"\" a patient, which may delay the case. These conditions frequently require comparing a current Echo or stress test to a previous Echo or stress test. From now on, please call anesthesia overnight when the patient has one of the CARDIAC CONDITIONS below:\n\n* CARDIAC= \n- heart (congestive heart failure, angina, history of heart attacks, valvular conditions [mitral or aortic regurgitation, aortic stenosis, etc.], arrthymias)\n- Cardiopulmonary (history of pulmonary embolism)\n- Cardiovascular (history of abdominal aortic aneurysm or aortic dissection)\n\n<b><u>Misc pre-operative requirements</b></u>\nALL HIP FRACTURE PATIENTS NEED A FOLEY \"",
+        "Injury": "General Call Rules",
+        "Injury_key": "general_call_rules",
+        "Acute_plan": "<u>General Rules:</u>\n\u2022 You are a brand new second year, you CANNOT refuse consults, it doesn\u2019t matter how dumb or how little of the workup the team did\n\u2022 Don\u2019t ever hang up the phone without getting all of the information you need:\no Adequate X-rays\no NPO status/sedation time\no Open vs. closed\no Call back number/pager\n\u2022 If the consult seems low priority, see other consults first and don\u2019t get bogged down with something that seems like an outpatient issue (e.g. AVN of humeral head)\n\u2022 All open fractures need a picture. Make sure you measure size of defect (1 cm is much smaller than you think)\n\u2022 Take photos of x-rays, open wounds or anything you might need to show the PGY4\n\u2022 If they are concerned for infection of any type- CBC, ESR and CRP is a must. Even if patient is postop, these can be trended (esp CRP) over the next few days. NOTE: These tests can be added on STAT to expedite consult\n\u2022 Need to prioritize\n\u2022 Command the room, you are in charge, if you need more hands ask for help, direct people and take charge of what is going on\n\n<u>Getting a patient ready for OR</u>\n\u2022 Is this an emergency? Compartment syndrome, flexor tenosynovitis, septic joint, irreducible hip\n\u2022 NPO status?\n\u2022 Do they need medical clearance?\n\u2022 Call OR (42260 at UH, 76367 at Metro) and find out when patient would be able to go based on OR schedule\n\u2022 Call upper level and attending to decide if they want to operate today or next day. You should know when OR would allow you to operate!\n\u2022 Call OR back and add patient on the schedule \n\u2022 Consent and mark, CONSENT BROADLY so you don\u2019t have to do it again ",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 57,
+    "pk": 61,
+    "fields": {
+        "Category": "Rotations_logistics",
+        "Injury": "Preoperative Clearance Guide",
+        "Injury_key": "preoperative_clearance_guide",
+        "Acute_plan": "\"<b>Guide to medicine and anesthesia consult, from Jamie Kyriakedenes:</b><br>\n#1)<u><b> Cases that will ALWAYS be admitted to medicine</u></b>\n- Significant comorbidities that are a constant threat to life and your 'hunch' is that they will require preoperative diagnostics\n- These can include Echo for CHF that may be decompensating or stress test for new angina, EKG showing RVR or new afib, prolonged hospitalization for recovery from surgery with needs like dialysis, acute hypoxia, needs syncopal workup, etc\n- Always admit these medically unstable patients to medicine. Think ASA status 3-4. <u><a href='https://my.clevelandclinic.org/health/articles/asa-physical-classification-system'>Link to ASA</a></u>\n\n#2)<u><b> Cases that may be admitted to medicine vs Ortho+Dr.Sidagam* (see below)</u></b>\n- Patient has a list of comorbidities, but your hunch is that they are medically stable\n- These can include well-controlled DM, HTN, CKD, asthma, mild/stable CHF. Blood glucose isn't wildly out of control (not worried about DKA). SysBP isn't 200s. Some baseline SOB without acute worsening. Cr/BUN is somewhat elevated but at baseline, not new this admission. You get the point, think ASA 2-3 patients. \n- These patients might need additional preoperative diagnostic studies, but it is not every time, thus requires more work-up:\n\n * A) <u>You choose to pursue admission to medicine.</u>\nIf you stop there and leave the hospital, the medicine team may not round on this patient until 1 pm, they then realize OSH records are needed, etc may not get around to clearing patient until the afternoon or later. Therefore, if you admit to medicine, personally call the medicine team (obtain pager # from ED) and let them know that we are trying to do the case at 10:00 am (or whatever our attending seems to indicate the order will be- ask chief if questions), and to please round on this patient FIRST, to plan to evaluate and optimize patient by that time, and let us know as soon as possible if they have concerns about the patient's ability to be taken to surgery that morning. Dr. Sidagam can also be involved in this situation, but the medicine attending should request and/or be aware of you involving Dr. Sidagam (per Sidagam).\n \n* B) <u>You choose to admit to Ortho and consult Dr. Sidagam for preoperative clearance (+/- postop comanagement).</u>\nYou must then either call Dr. Sidagam around 8:30-9 when he comes in (phone 66867), or CLEARLY sign this task out to the Dayfloat team (or other resident covering that new admission). In this situation (and actually likely either situation 1 or 2 for these sick patients), you would be wise to not expect a 730 first-start, and should temper expectations of the ortho-trauma attending accordingly.\n\n#3) <u><b>Regarding calling anesthesia about a patient preoperatively:</u></b>\nYou should always call the anesthesiologist on-call overnight when you think a patient needs to go to OR that following MORNING (or you have high suspicion that our attending will try to take patient to OR that morning..) and the patient has one of the \"\"CARDIAC\"\" CONDITIONS* below that you feel \"\"might\"\" require further workup. We will continue to go back and forth with anesthesia on what is appropriate and what is not appropriate for overnight calls, and our current opinion is that cardiac/cardiovascular/cardiopulmonary issues most often cause delays in cases, and are important for them to start reviewing as soon as possible. Not infrequently, anesthesia may require further workup even though the medicine team \"\"cleared\"\" a patient, which may delay the case. These conditions frequently require comparing a current Echo or stress test to a previous Echo or stress test. From now on, please call anesthesia overnight when the patient has one of the CARDIAC CONDITIONS below:\n\n* CARDIAC= \n- heart (congestive heart failure, angina, history of heart attacks, valvular conditions [mitral or aortic regurgitation, aortic stenosis, etc.], arrthymias)\n- Cardiopulmonary (history of pulmonary embolism)\n- Cardiovascular (history of abdominal aortic aneurysm or aortic dissection)\n\n<b><u>Misc pre-operative requirements</b></u>\nALL HIP FRACTURE PATIENTS NEED A FOLEY\nPediatric patients do not need pre-operative labs (save them from a needle stick!)\"",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 62,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "UH Upper Extremity Consult Policy",
@@ -628,7 +683,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 58,
+    "pk": 63,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Emergent Operative Cases Guide",
@@ -639,7 +694,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 59,
+    "pk": 64,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "UH Ortho Equipment Guide",

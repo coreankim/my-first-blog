@@ -23,18 +23,6 @@ def sidebar(request):
 
 def plan_detail(request, Injury_key):
 	plan = get_object_or_404(Plan, Injury_key=Injury_key)
-	acute_plan = plan.Acute_plan.replace(":", ":#@").replace("\n", "#@").split("#@")
-	newTextList = list()
-	for i in range(len(acute_plan)):
-		newText = ""
-		if ":" in  acute_plan[i]:
-			newText = acute_plan[i].replace(":","\n")
-		newTextList.append(newText)
-	acute_plan_checklist = " ".join(newTextList)
-	if plan.Category in ["Procedures", "Rotations_logistics", "Attending Preferences", "Templates", "Contact Info", "Education Sources"]:
-		plan.Acute_plan = plan.Acute_plan
-	else:
-		plan.Acute_plan = acute_plan_checklist
 	return render(request, 'blog/plan_detail.html', {'plan': plan})
 
 def plan_detail_toggle(request, Injury_key):
