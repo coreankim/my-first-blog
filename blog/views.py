@@ -41,11 +41,11 @@ def plan_detail(request, Injury_key):
 		else:
 			newText = "<li>"+acute_plan[i]+"</li>"
 		newTextList.append(newText)
-	acute_plan_checklist = " ".join(newTextList)
+	acute_plan_edited = " ".join(newTextList)
 	print("edited------------------------------")
 	print(acute_plan_checklist)
 	if plan.Category in ["Procedures", "Rotations_logistics", "Attending Preferences", "Templates", "Contact Info", "Education Sources"]:
 		plan.Acute_plan = plan.Acute_plan
 	else:
-		plan.Acute_plan = acute_plan_checklist
+		plan.Acute_plan = acute_plan_edited
 	return render(request, 'blog/plan_detail.html', {'plan': plan})
