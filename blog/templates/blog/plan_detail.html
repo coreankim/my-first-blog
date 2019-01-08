@@ -7,9 +7,11 @@
 		        <h2>{{ plan.Injury }}</h2>
 		        <br>
 		        <div id="acute-plan">
-			        <span id="acute-plan-info">
-				        <p>{{ plan.Acute_plan|safe|linebreaksbr }}</p>
-			        </span>
+        			<h3>Acute plan</h3>
+        			<br>
+			        <ul id="acute-plan-info">
+				        {{ plan.Acute_plan|safe }}
+			        </ul>
 				<br>
 		    </div>
 		</div>
