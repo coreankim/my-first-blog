@@ -531,6 +531,17 @@
     "model": "blog.plan",
     "pk": 49,
     "fields": {
+        "Category": "Pediatrics",
+        "Injury": "Radial head fracture/dislocation",
+        "Injury_key": "radial_head_fracture_dislocation",
+        "Acute_plan": "Radial Head Fracture/Dislocation\n- On the phone:\no Adequate X-rays (elbow, forearm)\no NPO status/sedation time (VERY difficult to reduce. Will likely require sedation)\n- What to grab/order before seeing consult:\no Fluoro machine (put order in)\no Splinting materials (long arm splint)\no Consent form: \u201cOperative fixation of radial head dislocation\u201d just in case (very difficult reduction)\no Finger traps vs. kerlix, IV pole\no Post-reduction x-ray (order before reduction so you can wheel directly to x-ray after splinting; speeds things up)\no Note: Above can be set up as soon as you see consult, even if ED not ready for sedation. That way they know that, when they\u2019re ready, you\u2019re ready (they\u2019re less likely to call 30 mins before they\u2019re actually ready)\n- Special Considerations for this consult:\no Very difficult reduction. Review maneuvers on Orthobullets before attempting reduction (Israeli, Patterson, etc.)",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 50,
+    "fields": {
         "Category": "Procedures",
         "Injury": "Skeletal traction",
         "Injury_key": "skeletal_traction",
@@ -540,7 +551,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 50,
+    "pk": 51,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skin traction",
@@ -551,7 +562,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 51,
+    "pk": 52,
     "fields": {
         "Category": "Procedures",
         "Injury": "Joint aspiration",
@@ -562,7 +573,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 52,
+    "pk": 53,
     "fields": {
         "Category": "Procedures",
         "Injury": "Reductions",
@@ -573,7 +584,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 53,
+    "pk": 54,
     "fields": {
         "Category": "Procedures",
         "Injury": "Splints",
@@ -584,7 +595,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 54,
+    "pk": 55,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Night Float Guide",
@@ -595,7 +606,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 55,
+    "pk": 56,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Preoperative Clearance Guide",
@@ -606,7 +617,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 56,
+    "pk": 57,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "UH Upper Extremity Consult Policy",
@@ -617,7 +628,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 57,
+    "pk": 58,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Emergent Operative Cases Guide",
@@ -628,7 +639,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 58,
+    "pk": 59,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "UH Ortho Equipment Guide",
