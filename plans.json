@@ -39,7 +39,7 @@
         "Category": "General",
         "Injury": "Septic arthritis",
         "Injury_key": "septic_arthritis",
-        "Acute_plan": "",
+        "Acute_plan": "\u2022 Most will NOT be septic joint. HOWEVER, all must be treated as septic joint and seen urgently. Prioritize these consults. As soon as you get the call, be sure they have ordered CBC, ESR, CRP, and plain films of the joint. \n\u2022 Lab values associated with septic joint:\no WBC > 10K with left shift\no ESR > 30\no CRP > 5\n\u2022 Assess for pain with ROM. Painless PASSIVE or active ROM suggests less likely septic. \n\u2022 Generally, if there is ANY concern (elevated inflamm markers and some pain), the attending will prefer that you aspirate the joint. \n\u2022 Bring the aspiration supplies (sterile urine specimen cup, 18-20 gauge needles, 30-60cc syringe, chloraprep sticks/swabs, specimen bag, pt sticker for specimen cup. Also bring a culture swab. If you get minimal aspirate (~1cc), cell count can\u2019t be performed, but the swab can be used for gram stain/culture. Squirt the aspirate into the swab container in this situation.\n\u2022 After aspiration, transfer aspirate to the specimen cup. Apply pt sticker and be sure to sign, date, and time the specimen on the sticker (lab will refuse otherwise). Nurse can print the lab requisition.\n\u2022 Joint fluid is LIQUID GOLD. ALWAYS walk the specimen to the lab yourself and physically hand it to a lab tech at the window. NEVER use tube system.\n\u2022 Analyze cell count/diff, gram stain and culture, and crystals.\n\u2022 Wait until ALL of this information is back to call 4 (gram stain is usually last). Even with crystals, small chance of superinfection, so must have gram stain.\n\u2022 WBC count >50k is likely septic\n\u2022 If positive, proceed down \u201cprepping for surgery\u201d and find out availability, etc before calling 4.",
         "Follow_up": ""
     }
 },
@@ -50,7 +50,7 @@
         "Category": "General",
         "Injury": "Pathologic lesion",
         "Injury_key": "pathologic_lesion",
-        "Acute_plan": "\u2022 Do they have a primary cancer diagnosis?:\n\u2022 Where is lesion located?:\n\u2022 Lytic vs blastic? Pathologic fracture or not:\n\u2022 Need to image full bone because might change operative plan because want to protect entire bone with fixation:\n\u2022 Getty likes to get MRIs but you should talk to 4th year before getting MRI but when you call 4th year it is something to discuss:",
+        "Acute_plan": "##Ask on the phone:\n~~Adequate x-rays (entire bone, joint above and below); \n~~Do they have a primary cancer diagnosis? Any known bony mets?\n~~NPO time\n\n##What to grab/order before seeing consult:\n~~Consent: \u201cProphylactic fixation of [bone]\u201d vs. \u201cOperative fixation of pathologic [bone] fracture\u201d\n~~Confirm not pathologic fracture before seeing, as this changes how patient will be managed in ED\n\n##Radiographic/physical exam:\nKnown primary? If tumor of unknown origin, needs:\n~~MRI of entire bone: Getty likes to get MRIs but you should talk to 4th year before getting MRI but when you call 4th year it is something to discuss; Always put \u201ctumor protocol\u201d in special instructions\n~~CT C/A/P\n~~SPEP/UPEP\nFirst bony met? If this is first bony metastasis, needs an IR guided biopsy prior to prophylactic fixation\nLytic vs blastic? Pathologic fracture or not?\n\n##Wrap-up:\nAdmit to Medicine for tumor workup",
         "Follow_up": ""
     }
 },
@@ -59,9 +59,9 @@
     "pk": 6,
     "fields": {
         "Category": "Hand",
-        "Injury": "Tendon injuries",
-        "Injury_key": "tendon_injuries",
-        "Acute_plan": "",
+        "Injury": "Metacarpal fracture",
+        "Injury_key": "metacarpal_fracture",
+        "Acute_plan": "##Ask on the phone:\nOpen? Bite marks?\nAP/lateral hand, wrist\n\n##Radiographic/physical exam:\nNeurovascular status\nCheck for fight bite\nScissoring?\n\n##Interventions in the ED:\nJahss maneuver for reduction of Boxer\u2019s fx under hematoma block\nUlnar gutter for 4th or 5th metacarpals. Make sure you\u2019re splinting one digit radial and ulnar to the injured finger!\nFor 2nd and 3rd can do radial gutter or just do dorsal and volar slab\n\n##Wrap-up:\nFollow-up with attending on call.",
         "Follow_up": ""
     }
 },
@@ -70,9 +70,9 @@
     "pk": 7,
     "fields": {
         "Category": "Hand",
-        "Injury": "Nailbed injuries",
-        "Injury_key": "Nailbed_injuries",
-        "Acute_plan": "<u>Ask on the phone:</u>\nX-ray of digit\nNPO status/sedation time (ED HATES sedating for this)\nLidocaine at bedside\nAncef/tetanus?\n\n<u>What to grab/order before seeing consult:</u>\nPlain films to assess for underlying fracture and/or level of amp\n\n<u>Physical exam</u>\nComplete exam \u2013 sensation, motor (tendons involved?)\n\n<u>Interventions in the ED</u>\n\u2022 NAILBED: after block, remove nail (using freer borrowed from OR blunt, rounded edge of scissors in suture tray). Irrigate the nailbed lac and repair with 3-0 or 5-0 chromic (ALWAYS ABSORBABLES). Replace the nail under nail fold after sterilizing in betadine and rinsing. Use a stitch at each corner of nailfold and each distal corner to hold in place (chromic). Can use folded xeroform foil if nail damaged/lost. Dress in xeroform, 2x2s, cling gauze and alumifoam finger splint (bent in U over whole digit) held in place with tape.\no Use suture to put everything grossly in place\no Then use dermabond to stick everything together\no Splint with either nail, foil, or xeroform (AFTER dermabond dries)\n\n<u>Special Considerations for this consult:</u>\nAncef/tetanus in ED, Keflex x 7 days",
+        "Injury": "Tendon injury",
+        "Injury_key": "tendon_injury",
+        "Acute_plan": "##Ask on the phone:\nAP/lateral XRs to assess for underlying fracture\nAncef/tetanus?\nLidocaine at bedside for digital block\nVolar or dorsal?\n\n##What to get/order before seeing consult:\nLac repair kit\nNon-absorvable suture (tendon injury) and rapidly absorving suture (skin closure)\nSplit material\n\n##Radiographic/physical exam:\nIf hand, identify flexor or extensor zones\nNeurovascular exam:\n~~Modified Allen test, Doppler signals\n~~Median, radial, ulnar, digital nerves\nTendon exam:\n~~Tenodesis exam\n~~Hold other fingers straight when testing flexion as FDP typically have shared muscle belly\n\n##Interventions in ED:\nFor dorsal tendon injuries:\n~~Repair in ED, if >60% observed with loupe or patient has limited extension (after radial block to eliminate pain)\n~~Used braided nonabsorvable suture in a figure-of-eight stitch, keeping knot-bulk to a minimum\n~~Place in volar splint to prevent flexion and repair failure\n\nFor flexor tendon injuries:\n~~DO NOT repair in ED, needs to go to OR given the higher risk of damaging neurovascular structures\n~~Irrigate the laceration, loosely approximate the skin, and splint hand in slight flexion to bring tendon edges closer together\n\n##Wrap-up, if operative:\nNerve injuries must be repaired acutely in the OR\n\n##Wrap-up, if non-operative:\nSend home on Keflex x7 days",
         "Follow_up": ""
     }
 },
@@ -80,7 +80,51 @@
     "model": "blog.plan",
     "pk": 8,
     "fields": {
-        "Category": "Cervical_spine",
+        "Category": "Hand",
+        "Injury": "Nailbed injury",
+        "Injury_key": "nailbed_injury",
+        "Acute_plan": "##Ask on the phone:\nX-ray of digit to assess for underlying fracture\nNPO status/sedation time (ED HATES sedating for this)\nAncef/tetanus?\n\n##What to grab/order before seeing consult:\n5.0 or 4.0 absorbable suture (chromic), 4.0 non-absorbable suture, dermabond\nLidocaine for nerve block\nLaceration kit at bedside\n18 gauge needle for possible nail trephination, if subungual hematoma present\n\n##Physical exam\nComplete exam \u2013 sensation (ulnar and radial digital nerve exam), motor (tendons involved?)\n\n##Interventions in the ED\nSubungual hematoma:\n~~If <50% of nail, there is risk of nail bed injury, but okay to just trephine nail with 18gauze\n~~If >50% of nail, high risk of nail bed injury, so remove nail and inspect nailbed\n\nNailbed laceration repair:\n~~After digital nerve block, remove nail (using freer borrowed from OR / a blunt, rounded edge of scissors in suture tray). \n~~Irrigate the nailbed laceratiion and repair with 6-0 or 5-0 (if 6-0 keeps breaking) chromic (ALWAYS ABSORBABLES) with simple sutures then use dermabond to stick everything together. \n~~For simple, small lacerations, just dermabond is fine.\n~~After dermabond dries, replace the nail on the fold after sterilizing in betadine and rinsing. \n~~Suture nail in place with 5-0 chromic at the two proximal and two distal corners of the nailfold. Can use folded aluminum foil or folded xeroform if nail damaged/lost. \n~~Dress in xeroform and a bulky dressing (2x2s, nonadhesize gauze), held in place with tape.\n\n##Wrap-up:\n~~Make sure patient got ancef/tetanus in ED, send home on Keflex x 7 days\n~~Staff and follow-up with attending on call",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 9,
+    "fields": {
+        "Category": "Hand",
+        "Injury": "Finger amputation",
+        "Injury_key": "finger_amputation",
+        "Acute_plan": "##Ask on the phone:\nPlain films to assess for underlying fracture and/or level of amp\nAncef/tetanus?\n\n##What to get/order before seeing consult:\nRongeur and scrub brush from OR\n\n##Radiographic/physical exam:\nComplete exam \u2013 sensation, motor (tendons involved?)\nTHOROUGHLY irrigate wound (can take 1L NS bottle and poke holes on front of bottle with 18g needle to make squirt bottle) to better evaluate. \nSnap photos for documentation and to show PGY4/attending.\n\n##Interventions in ED:\nGrab a sterile glove, cut off the finger of the glove, and roll onto the finger to act as a tourniquet or get a finger tourniquet from the suture cart. (DON\u2019T FORGET TO CUT IT OFF WHEN YOU\u2019RE DONE!!!) \nOnce films and clinical photos obtained, call the PGY4 to discuss. If formal revision amp required, irrigate and re-dress the wound with xeroform, 2x2s, and cling gauze until OR. \nFor bedside revision, ask PGY4 for recs: \n~~Rongeur can be obtained from OR. Don\u2019t damage the FDP insertion in the proximal phalanx.\n~~Whenever you use a Rongeur, wear eye protection!!!\n~~After revision amp, use an OR scrub brush and go to town cleaning it. Then take a picture and send to attending. It helps them a lot in clinic\n\n##Wrap-up, if operative:\nMark/Consent for revision amputation\n\n##Wrap-up, if non-operative:\nMake sure patient received IV Abx (at least 1 dose) and homegoing PO course (likely Keflex) x7 days. \nFollow up with attending on call.",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 10,
+    "fields": {
+        "Category": "Hand",
+        "Injury": "Hand infection",
+        "Injury_key": "hand_infection",
+        "Acute_plan": "",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 11,
+    "fields": {
+        "Category": "Hand",
+        "Injury": "Flexor tenosynovitis",
+        "Injury_key": "flextor_tenosynovitis",
+        "Acute_plan": "URGENT consult!! \n\n##Ask on the phone:\nPlain films, CBC, ESR, CRP\n\n##Complete exam:\nKnavel\u2019s signs:\n~~1) fusiform swelling of entire digit\n~~2) digit held preferentially flexed\n~~3) pain with passive stretch\n~~4) TTP over FTS\nUnsure of dx? TTP in the palm proximal to the digit is HIGHLY suggestive of FTS\n\n##Interventions in ED:\nStart broad-spectrum IV abx. \nDepending on exam, pt may be monitored and elevated (hanging arm splint) or may require formal I&D. \n\n##Wrap-up:\nOnce a physical exam, IV abx, and pictures are obtained, d/w PGY4.",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 12,
+    "fields": {
+        "Category": "Spine",
         "Injury": "Occipitocervical injury",
         "Injury_key": "occipitocervical_injury",
         "Acute_plan": "AP, lateral, open-mouth odontoid XRs: Rarely helpful to assess condylar injuries because maxilla and occiput block condyles, mainly for seeing associated injuries.\nGet CT:  Must get CT as method of choice.\nConduct neuro exam: full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's) \nCalculate Powels ratio: \nFrom CT. Distance from basion to posterior arch / Distance from anterior arch to opisthion\u00a0\n~1 normal, <1 posterior occipitocervical dislocation, >1 anterior occipitocervical dislocation.\nCalculate basion-dens interval: From CT. >12mm disassociation.\nGet Anderson classification: For occipitocervical fractures. Type I,II,III. Based off CT.\nConsider MRI: Discuss with senior. Get if CT shows fracture retropulsion into canal or CT findins suspicious for ligamentous injury (widening of condyle spaces, etc.). ",
@@ -89,9 +133,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 9,
+    "pk": 13,
     "fields": {
-        "Category": "Cervical_spine",
+        "Category": "Spine",
         "Injury": "C1 (Atlas) fracture",
         "Injury_key": "c1_(atlas)_fracture",
         "Acute_plan": "Get AP, lateral, and open mouth odontoid XRs: Calculate ADI, SAC, lateral mass displacement from normal XRs. \nConsider flexion-extension views: Required for pre-operative clearance and ideal ADI and SAC, but do not order them in ED without discussion with senior.\nGet CT: Method of choice.\nGet Landells atlas fracture classification: Based off CT. Type I,II,III.\nCalculate ADI: \nFrom lateral. Distance b/w odontoid and anterior atlas. \n>3mm is unstable in adults, >5mm is unstable in children,  >10mm is indication for surgery in RA\nCalculate SAC:\nFrom lateral. Distance b/w odontoid and to posterior atlas.\n<13mm is unstable, <14mm is indication for surgery in RA patients.\nCalculate sum of both lateral mass displacement: From odontoid view. >7mm indicates transverse ligmanet disruption, is unstable\nAsk about adult associated conditions: Down syndrome, RA\nAsk about pediatric associated conditions: JRA, Morquio's syndrome, rotatory atlantoaxial subluxation\nAssess for other spine injuries: 50% incidence\nConduct neuro exam: full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's) \nConsider MRI: Discuss with senior at this point, if you suspect ligamentous disruption or unstable neuro exam.",
@@ -100,9 +144,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 10,
+    "pk": 14,
     "fields": {
-        "Category": "Cervical_spine",
+        "Category": "Spine",
         "Injury": "C2 (Axis) fracture",
         "Injury_key": "c2_(axis)_fracture",
         "Acute_plan": "Get AP, lateral, and open mouth odontoid XRs: Calculate ADI, SAC from normal XRs. \nConsider flexion-extension views: Required for pre-operative clearance and ideal ADI and SAC, but do not order them in ED without discussion with senior.\nGet CT: Method of choice.\nGet Anderson and D'Alonzo classification: Based off CT. Type I,II,III.\nAssess for os odontoideum: Looks like Type II, may represent old traumatic process.\nGet Landells atlas fracture classification: Based off CT. Type I,II,III.\nCalculate ADI: \nFrom lateral. Distance b/w odontoid and anterior atlas. \n>3mm is unstable in adults, >5mm is unstable in children,  >10mm is indication for surgery in RA\nCalculate SAC:\nFrom lateral. Distance b/w odontoid and to posterior atlas.\n<13mm is unstable, <14mm is indication for surgery in RA patients.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider CT angiogram: Discuss with senior. Required to assess vertebral body if doing  posterior fusion. \nConsider MRI: Discuss with senior. If neurologic symptoms present.",
@@ -111,9 +155,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 11,
+    "pk": 15,
     "fields": {
-        "Category": "Cervical_spine",
+        "Category": "Spine",
         "Injury": "Traumatic axial spondylolisthesis (Hangman's fracture)",
         "Injury_key": "traumatic_axial_spondylolisthesis_(hangmans_fracture)",
         "Acute_plan": "Define it: Bilateral C2 pars fractures with C2 subluxation on C3\nGet CT: \nMethod of choice. \nIdentify bilateral C2 pars fractures and measure displacemenet of C2.\nIdentify possible facet dislocation.\nConsider flexion-extension views in ED: \nDiscuss with senior.\nWill show C2 subluxating off C3. Identify facet dislocation. \nAssess for other spine injuries: 30% concomitant c-spine injuries\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider MRA: Discuss with senior. If suspicious for vertebral artery injury.\nConsider MRI: Discuss with senioir. If neurological symptoms.",
@@ -122,9 +166,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 12,
+    "pk": 16,
     "fields": {
-        "Category": "Cervical_spine",
+        "Category": "Spine",
         "Injury": "Cervical facet injuries",
         "Injury_key": "cervical_facet_injuries",
         "Acute_plan": "Get CT:\nIdentify mono vs bilateral facet dislocation\nIdentify fractures to facets, pedicles, or lamina\nGet XR: Non-essential. If unable to get and CT is already completed, then no need to aggresively pursue.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider MRI:\nDiscuss with senior.\nIf any neurologic deficits are present in AWAKE patient with facet dislocation, PRIORITY is to reduce dislocation in OR. MRI should be performed AFTER attempt at closed reduction.\nHowever, IMMEDIATELY get MRI for facet dislocations with patient AMS, to assess neurologic compromise since you can't conduct proper neuro exam.\nIMMEDIATELY get MRI if patient is going straight to open reduction and surgical stabilization, to assess for disc herniation, which will need to be removed through anterior approach.",
@@ -133,9 +177,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 13,
+    "pk": 17,
     "fields": {
-        "Category": "Cervical_spine",
+        "Category": "Spine",
         "Injury": "Subaxial vertebral body fractures",
         "Injury_key": "subaxial_vertebral_body_fractures",
         "Acute_plan": "Get CT: Method of choice to assess for kyphosis to assess stability and any bony retropulsion.\nGet standing AP, lateral XRs: Need standing xrays to assess kyphosis, and also to compare during follow-up. \nGet descriptive classification: compression, burst, flexion-distraction, facet dislocation, facet fracture\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider MRI:\nDiscuss with senior.\nGet if there are neurologic deficits, particularly as to assess posterior ligamentous complex injury.",
@@ -144,9 +188,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 14,
+    "pk": 18,
     "fields": {
-        "Category": "Cervical_spine",
+        "Category": "Spine",
         "Injury": "Cervical extension teardrop fracture",
         "Injury_key": "cervical_extension_teardrop_fracture",
         "Acute_plan": "Define it: Avulsion of anterioinferior corner of vertebral body, due to hyperextension.\nGet standing AP/lateral XRs: Identify the triangular shaped (hence 'teardrop') fragment, assess anterior disc space for widening \nGet CT: Method of choice. Identify any other fracture extension.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider central cord syndrome: Associted due to buckling of ligamentum flavum during hyperextension.\nConsider MRI:\nDiscuss with senior.\nGet if neuro deficits present or you suspect central cord syndrome.",
@@ -155,9 +199,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 15,
+    "pk": 19,
     "fields": {
-        "Category": "Cervical_spine",
+        "Category": "Spine",
         "Injury": "Central cord syndrome/cervical stenosis",
         "Injury_key": "central_cord_syndrome_cervical_stenosis",
         "Acute_plan": "Define it: Avulsion of anterioinferior corner of vertebral body, due to hyperextension.\nGet standing AP/lateral XRs: Identify the triangular shaped (hence 'teardrop') fragment, assess anterior disc space for widening \nGet CT: Method of choice. Identify any other fracture extension.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider central cord syndrome: Associted due to buckling of ligamentum flavum during hyperextension.\nConsider MRI:\nDiscuss with senior.\nGet if neuro deficits present or you suspect central cord syndrome.",
@@ -166,9 +210,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 16,
+    "pk": 20,
     "fields": {
-        "Category": "Thoracolumbar_spine",
+        "Category": "Spine",
         "Injury": "Thoracolumbar fracture",
         "Injury_key": "thoracolumbar_fracture",
         "Acute_plan": "Define it: Vertebral fracture with compromise of the anterior and middle column\u00a0\nGet full spine CT: Method of choice. Full spine needed b/c 20% concomitant spine fractures.\nGet full spine AP/lateral XRs: Mainly used for follow-up in clinic to assess alignment.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\nGet MRI:\nDiscuss with senior.\nRequired for neurologic deficits or obtunded patient.\nWill likely need MRI to ensure stability of posterior ligamentous complex.\nCalculate TLICS:\n<a href='https%%//www.mdapp.co/thoracolumbar-injury-classification-and-severity-tlics-score-calculator-283/'><u>TLICS calculator</u></a>\n<4 is non-surgical, 4 is surgical or non-surgical, >4 is surgical\n",
@@ -177,9 +221,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 17,
+    "pk": 21,
     "fields": {
-        "Category": "Thoracolumbar_spine",
+        "Category": "Spine",
         "Injury": "Chance fracture (flexion-distraction injury)",
         "Injury_key": "chance_fracture_(flexion-distraction_injury)",
         "Acute_plan": "Define it: lumbar spine flexes, causing anterior column to fail in compression and middle/posterior columns to fail in tension\nGet CT:\nMethod of choice. A Chance fracture will show posterior column distraction.\nNote degree of fracture extension and any retropulsion into canal.\nGet AP/lateral lumbar XRs:\nFor comparison of alignment in later outpatient follow-up.\nCosider flexion-extension views:\nNon-essential. Do not get in ED. Discuss with senior.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\nGet MRI:\nDiscuss with senior.\nIf a Chance fracture, always get an MRI regardless of neuro deficits, to evaluate damage to PLC.",
@@ -188,9 +232,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 18,
+    "pk": 22,
     "fields": {
-        "Category": "Thoracolumbar_spine",
+        "Category": "Spine",
         "Injury": "Thoracolumbar fracture-dislocation",
         "Injury_key": "thoracolumbar_fracture-dislocation",
         "Acute_plan": "Define it: Thoracolumbar fracture associated with posterior facet dislocation\nGet CT:\nMethod of choice. \nNote degree of fracture extension and dislocation into canal.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\nGet MRI:\nDiscuss with senior.\nA thoracolumbar fracture-dislocation requires immediate MRI to evaluate PLC. \nCalculate TLICS:\n<a href='https%%//www.mdapp.co/thoracolumbar-injury-classification-and-severity-tlics-score-calculator-283/'><u>TLICS calculator</u></a>\n<4 is non-surgical, 4 is surgical or non-surgical, >4 is surgical\nGet AP/lateral lumbar XRs:\nNon-essential. Get it when possible.\nFor comparison of alignment in later outpatient follow-up.",
@@ -199,9 +243,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 19,
+    "pk": 23,
     "fields": {
-        "Category": "Thoracolumbar_spine",
+        "Category": "Spine",
         "Injury": "Thoracolumbar compression fracture",
         "Injury_key": "thoracolumbar_compression_fracture",
         "Acute_plan": "Define traumatic vs osteoporotic: If osteoporotic, considered a spine fragility fracture\nGet full spine XRs: \n20% concomitant spine injuries\nDefine degree of kyphosis\nDefine degree of vertebral body collapse:\n>50% loss considered unstable\nGet CT: Method of choice\nGet full medical workup: ESR, CRP, CBC, BMP, urine, serum electrophoresis to rule out infection vs tumor\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\nConsider MRI:\nDiscuss with senior.\nNot usually indicated, unless there are neuro deficits.",
@@ -210,9 +254,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 20,
+    "pk": 24,
     "fields": {
-        "Category": "Thoracolumbar_spine",
+        "Category": "Spine",
         "Injury": "Cauda equina syndrome and lumbar stenosis",
         "Injury_key": "cauda_equina_syndrome_lumbar_stenosis",
         "Acute_plan": "Get full spine MRI / CT myelogram:\nIf consulting service is asking for cauda equina workup, they MUST have MRI before you see the consult. \nAlternative is a CT myelogram in patients unable to get MRI (pacemaker).\nDiscuss with senior.\nEvaluate for tandem stenosis in cervical spine: 20% incidence of cervical stenosis\nMake NPO:\nIf any concern for cauda equina, immediately order NPO.\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder",
@@ -221,9 +265,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 21,
+    "pk": 25,
     "fields": {
-        "Category": "Spine_infection",
+        "Category": "Spine",
         "Injury": "Vertebral osteomyelitis",
         "Injury_key": "vertebral_osteomyelitis",
         "Acute_plan": "Get ESR, CRP, WBC, blood cultures:\nHold antibiotics:\nMake NPO:\nGet MRI w/ contrast:\nConsulting service MUST have MRI if consulting for vertebral osteomyelitis\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder",
@@ -232,9 +276,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 22,
+    "pk": 26,
     "fields": {
-        "Category": "Spine_infection",
+        "Category": "Spine",
         "Injury": "Spinal epidural abscess",
         "Injury_key": "spinal_epidural_abscess",
         "Acute_plan": "Get ESR, CRP, WBC, blood cultures:\nHold antibiotics:\nMake NPO:\nGet MRI w/ contrast: Must get full spine MRI\nConsulting service MUST have MRI if consulting for vertebral osteomyelitis\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\n",
@@ -243,9 +287,9 @@
 },
 {
     "model": "blog.plan",
-    "pk": 23,
+    "pk": 27,
     "fields": {
-        "Category": "Spine_infection",
+        "Category": "Spine",
         "Injury": "Post-operative infection",
         "Injury_key": "post-operative_infection",
         "Acute_plan": "Get ESR, CRP, WBC, blood cultures:\nHold antibiotics:\nMake NPO:\nGet MRI w/ contrast:\nConsulting service MUST have MRI if consulting for vertebral osteomyelitis\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\n",
@@ -254,7 +298,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 24,
+    "pk": 28,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "APC pelvic ring fracture",
@@ -265,7 +309,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 25,
+    "pk": 29,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "LC pelvic ring fracture",
@@ -276,7 +320,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 26,
+    "pk": 30,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Vertical pelvic ring fracture",
@@ -287,7 +331,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 27,
+    "pk": 31,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Pubic rami fracture",
@@ -298,7 +342,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 28,
+    "pk": 32,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Acetabulum fracture",
@@ -309,7 +353,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 29,
+    "pk": 33,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Sacral fracture",
@@ -320,7 +364,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 30,
+    "pk": 34,
     "fields": {
         "Category": "Hip",
         "Injury": "Hip dislocation",
@@ -331,7 +375,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 31,
+    "pk": 35,
     "fields": {
         "Category": "Hip",
         "Injury": "Femoral neck",
@@ -342,7 +386,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 32,
+    "pk": 36,
     "fields": {
         "Category": "Hip",
         "Injury": "Proximal femur periprosthetic fracture",
@@ -353,7 +397,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 33,
+    "pk": 37,
     "fields": {
         "Category": "Hip",
         "Injury": "Intertrochanteric femur",
@@ -364,7 +408,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 34,
+    "pk": 38,
     "fields": {
         "Category": "Hip",
         "Injury": "Subtrochanteric femur",
@@ -375,7 +419,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 35,
+    "pk": 39,
     "fields": {
         "Category": "Femur",
         "Injury": "Femoral shaft fracture",
@@ -386,7 +430,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 36,
+    "pk": 40,
     "fields": {
         "Category": "Femur",
         "Injury": "Distal femur fracture",
@@ -397,7 +441,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 37,
+    "pk": 41,
     "fields": {
         "Category": "Femur",
         "Injury": "Distal femur periprosthetic fracture",
@@ -408,7 +452,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 38,
+    "pk": 42,
     "fields": {
         "Category": "Knee",
         "Injury": "Knee dislocation",
@@ -419,7 +463,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 39,
+    "pk": 43,
     "fields": {
         "Category": "Knee",
         "Injury": "Tibial plateau fracture",
@@ -430,7 +474,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 40,
+    "pk": 44,
     "fields": {
         "Category": "Knee",
         "Injury": "Patella fracture",
@@ -441,7 +485,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 41,
+    "pk": 45,
     "fields": {
         "Category": "Knee",
         "Injury": "Knee periprosthetic fracture",
@@ -452,7 +496,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 42,
+    "pk": 46,
     "fields": {
         "Category": "Tibia",
         "Injury": "Tibial shaft fracture",
@@ -463,7 +507,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 43,
+    "pk": 47,
     "fields": {
         "Category": "Tibia",
         "Injury": "Pilon fracture",
@@ -474,7 +518,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 44,
+    "pk": 48,
     "fields": {
         "Category": "Ankle_foot",
         "Injury": "Ankle fracture",
@@ -485,7 +529,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 45,
+    "pk": 49,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric elbow supracondylar fracture",
@@ -496,7 +540,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 46,
+    "pk": 50,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric elbow lateral epicondyle fracture",
@@ -507,7 +551,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 47,
+    "pk": 51,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric elbow dislocation",
@@ -518,7 +562,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 48,
+    "pk": 52,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Distal radius / Both bone forearm fracture",
@@ -529,7 +573,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 49,
+    "pk": 53,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "SCFE",
@@ -540,7 +584,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 50,
+    "pk": 54,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric septic hip",
@@ -551,7 +595,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 51,
+    "pk": 55,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric femur fracture",
@@ -562,7 +606,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 52,
+    "pk": 56,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Non-accidental trauma",
@@ -573,7 +617,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 53,
+    "pk": 57,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Radial head fracture/dislocation",
@@ -584,7 +628,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 54,
+    "pk": 58,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skeletal traction",
@@ -595,7 +639,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 55,
+    "pk": 59,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skin traction",
@@ -606,7 +650,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 56,
+    "pk": 60,
     "fields": {
         "Category": "Procedures",
         "Injury": "Joint aspiration",
@@ -617,7 +661,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 57,
+    "pk": 61,
     "fields": {
         "Category": "Procedures",
         "Injury": "Reductions",
@@ -628,7 +672,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 58,
+    "pk": 62,
     "fields": {
         "Category": "Procedures",
         "Injury": "Splints",
@@ -639,7 +683,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 59,
+    "pk": 63,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Night Float Guide",
@@ -650,7 +694,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 60,
+    "pk": 64,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "General Call Rules",
@@ -661,7 +705,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 61,
+    "pk": 65,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Preoperative Clearance Guide",
@@ -672,7 +716,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 62,
+    "pk": 66,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "UH Upper Extremity Consult Policy",
@@ -683,7 +727,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 63,
+    "pk": 67,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Emergent Operative Cases Guide",
@@ -694,7 +738,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 64,
+    "pk": 68,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "UH Ortho Equipment Guide",
