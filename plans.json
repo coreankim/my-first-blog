@@ -149,7 +149,7 @@
         "Category": "Elbow",
         "Injury": "Elbow dislocation",
         "Injury_key": "elbow_dislocation",
-        "Acute_plan": "",
+        "Acute_plan": "\"##Ask on the phone:\nMake NPO\nAsk to prepare sedation for reduction\nAny fractures?\nAP, lateral elbow - note direction of dislocation (lateral or medial?)\nAP, lateral of humerus\nAP, lateral forearm \n\n##What to get before seeing consult:\nFluoro order - for reduction\nPost-reduction AP/lat elbow - do this now so you don't forget later \nMaterial for posterior long arm and sugartong splints\n\n##Physical exam/further imaging:\nDetailed NV exam\n~~Doppler pulses if you can't palpate\n\n##Intereventions in the ED:\nReduce under sedation:\n~~Place one hand on forearm for in-line traction and supination/pronation, and another hand on the tip of the olecranon to guide elbow\n~~With slow, gentle motion, apply in-line traction while supinating (if lateral dislocation) or pronating (if medial dislocation) to clear the coronoid past the posterior humerus\n~~At the same time, with the other hand, slowly flex the elbow while applying pressure on the olecranon\n~~You'll feel a \"\"clunk\"\" with reduction\nAfter reduction, conduct a dynamic fluoro exam of elbow\n~~Conduct a dynamic lateral X-ray in the entire range of elbow flexion-extension and pronation/supination\n~~Note any points of instability\n~~If a concentric reduction is not seen at any point, consider an interposed intra-articular fragment\nPlace in posterior long arm splint (if stable) or sugartong w/ posterior extension (if unstable) at position of maximum stability\n\n##Wrap-up:\nConsider indications for surgery:\n~~No concentric reduction or on all views\n~~Unstable on post-reduction exam\nIf surgery indicated, refer to elbow fracture-dislocation section\nIf no surgery indicated, make NWB in splint and follow up with attending on call\"",
         "Follow_up": ""
     }
 },
@@ -303,7 +303,7 @@
         "Category": "Cervical_spine",
         "Injury": "Central cord syndrome/cervical stenosis",
         "Injury_key": "central_cord_syndrome_cervical_stenosis",
-        "Acute_plan": "##Ask on the  phone:\nTreat as URGENT consult. \nAsk about numbness/weakness/continence/clumsiness/ataxia\nh/o malignancy? Known primary? \nIf concern for infection/abscess, get CBC, ESR, CRP\n\n##Physical exam/further imaging:\nHow long have symptoms lasted? Generally, subacute symptoms (eg weeks to months) less urgent for intervention than acute (hours to days). ALL must be seen urgently, though.\nConduct COMPLETE neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nSTAT MRI:\n~~If patient can tolerate contrast (based on renal function), just get with contrast. This is most important for concern for epidural abscess/infection. \n~~If pt has obvious neuro deficits, call MRI and try to expedite (will help if they know patient has obvious deficits and likely needs OR)\n~~Once MRI complete, can walk to ED radiology and review with them if you have any questions. This will help familiarize you with what to look for and allow you to sound more knowledgeable to PGY4/attending.\n\n##Wrap-up:\nAfter exam/imaging/labs complete, call PGY4. T2 Mid-sagittal and axial view screenshots are likely most informative.",
+        "Acute_plan": "Treat as URGENT consult. \n\n##Ask on the phone:\nAsk about numbness/weakness/continence/clumsiness/ataxia\nh/o malignancy? Known primary? \nIf concern for infection/abscess, get CBC, ESR, CRP\n\n##Physical exam/further imaging:\nHow long have symptoms lasted? Generally, subacute symptoms (eg weeks to months) less urgent for intervention than acute (hours to days). ALL must be seen urgently, though.\nConduct COMPLETE neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nSTAT MRI:\n~~If patient can tolerate contrast (based on renal function), just get with contrast. This is most important for concern for epidural abscess/infection. \n~~If pt has obvious neuro deficits, call MRI and try to expedite (will help if they know patient has obvious deficits and likely needs OR)\n~~Once MRI complete, can walk to ED radiology and review with them if you have any questions. This will help familiarize you with what to look for and allow you to sound more knowledgeable to PGY4/attending.\n\n##Wrap-up:\nAfter exam/imaging/labs complete, call PGY4. T2 Mid-sagittal and axial view screenshots are likely most informative.",
         "Follow_up": ""
     }
 },
@@ -380,7 +380,7 @@
         "Category": "Spine_general",
         "Injury": "Spinal epidural abscess",
         "Injury_key": "spinal_epidural_abscess",
-        "Acute_plan": "##Ask on the phone:\nURGENT consult!\nMake NPO\nGet MRI w/ contrast: Must get full spine MRI\nGet ESR, CRP, WBC, blood cultures\nHold antibiotics\n\n##Physical exam/further imaging:\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\n",
+        "Acute_plan": "URGENT consult!\n\n##Ask on the phone:\nMake NPO\nGet MRI w/ contrast: Must get full spine MRI\nGet ESR, CRP, WBC, blood cultures\nHold antibiotics\n\n##Physical exam/further imaging:\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder\n",
         "Follow_up": ""
     }
 },
@@ -400,9 +400,9 @@
     "pk": 37,
     "fields": {
         "Category": "Spine_general",
-        "Injury": "Misc spine post-operative issues",
-        "Injury_key": "spine_post_operative_issues",
-        "Acute_plan": "URGENT consult!\n\n##Ask on the phone:\nMake NPO\nGet MRI w/ contrast: Must get full spine MRI\nGet ESR, CRP, WBC, blood cultures\nHold antibiotics\n\n##Physical exam/further imaging:\nConduct neuro exam: Full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's)\nConsider post-void residuals: If concerned for neurogenic bladder",
+        "Injury": "Other spine post-operative issues",
+        "Injury_key": "other_spine_post_operative_issues",
+        "Acute_plan": "",
         "Follow_up": ""
     }
 },
