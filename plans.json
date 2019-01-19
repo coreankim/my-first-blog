@@ -4,9 +4,9 @@
     "pk": 1,
     "fields": {
         "Category": "General",
-        "Injury": "GSW",
-        "Injury_key": "gsw",
-        "Acute_plan": "##Ask on the phone:\nWeapon type: \n~~Handgun (low velocity)\n~~Shotgun (intermediate velocity)\n~~Assault rifle (high velocity, treat like Gustilo Type III)\nNear a joint? Need to ask for CT to check for intra-articular fragments.",
+        "Injury": "Floor issues",
+        "Injury_key": "floor_issues",
+        "Acute_plan": "##Abdominal pain\nCheck for signs of peritonitis in physical exam\nPassing gas? Bowel movement? \nCheck KUB xrays for bowel obstruction\nCan order simethicone for gas pain\n\n##Antibiotics\nDo not reorder antibiotics overnight before checking with primary team or attending, especially for spine patients. \n~~In most cases, antibiotics can wait until morning\n~~The only time you should acutely begin antibiotics is for post-operative 24h antibiotics, in case these were missed.\nRed man syndrome from vancomycin\n~~Benadryl and ranitidine premedication. Tachy at baseline, no hypotension.\n\n##Chest pain\nAlways get a EKG\nHistory of MI or PE?\nIf persistent \n\n##Compartment syndrome\nStryker needle?\n\n##Dressing\nAquacell came off - repaint with chloraprep, get a new Aquacell from OR, then put one back on\n\n##DVT\nConsult Dr. Sidagam\nFirst start on anti-coagulation with Lovenox\n\n##Pain control\n\n##Urinary issues\nDysuria? Ordered UA.\nUrinary retention? Follow post-void residuals, then foley if retention does not resolve after straight cath x2.",
         "Follow_up": ""
     }
 },
@@ -15,15 +15,26 @@
     "pk": 2,
     "fields": {
         "Category": "General",
-        "Injury": "Open fracture",
-        "Injury_key": "open_fracture",
-        "Acute_plan": "##Ask on the phone:\nWhat antibiotics?\n~~Gustilo type I and II - ancef\n~~Gustilo type III - ancef + gentamicin\n~~Farm injuries, heavy contamination, or bowel injuries - ancef + gentamicin + penicillion (clostridium coverage)\n~~Fresh water - ceftazidime/cipro\n~~Ssalt water - doxycycline + ceftazidime/cipro\n~~GSW from handgun - ancef\nTetanus PPX?\nAP/laterals of extremities involved\n\n##What to get before seeing consult:\n4x4 gauze and ABD pads\nLac repair kit\n18g needle\nSterile normal saline\n\n##Physical exam/further imaging:\nABI: If pulses aren't palpable manually or Dopplerable.\nSaline load test, anytime there is a laceration over joint. 95% sensitivity: \n~~194cc in knee\n~~40cc in elbow\n~~30cc in ankle \n\n##Interventions in ED:\nDirect pressure for hemostasis: Controls most bleeding, no need for tourniquet.\nCover in saline-soaked gauze: no evidence for aggressive washout in ED, as it can push debris inward.\nSplint: To decrease pain, minimize soft tissue trauma, and stabilize clots.",
-        "Follow_up": "Admit to ortho: If isolated fracture\nPost for urgent OR: Better outcomes with aggressive I&D within 24hrs"
+        "Injury": "GSW",
+        "Injury_key": "gsw",
+        "Acute_plan": "##Ask on the phone:\nWeapon type: \n~~Handgun (low velocity)\n~~Shotgun (intermediate velocity)\n~~Assault rifle (high velocity, treat like Gustilo Type III)\nNear a joint? Need to ask for CT to check for intra-articular fragments.",
+        "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
     "pk": 3,
+    "fields": {
+        "Category": "General",
+        "Injury": "Open fracture",
+        "Injury_key": "open_fracture",
+        "Acute_plan": "##Ask on the phone:\nMake NPO\nWhat antibiotics?\n~~Gustilo type I and II - ancef\n~~Gustilo type III - ancef + gentamicin\n~~Farm injuries, heavy contamination, or bowel injuries - ancef + gentamicin + penicillion (clostridium coverage)\n~~Fresh water - ceftazidime/cipro\n~~Ssalt water - doxycycline + ceftazidime/cipro\n~~GSW from handgun - ancef\nTetanus PPX?\nAP/laterals of extremities involved\n\n##What to get before seeing consult:\n4x4 gauze and ABD pads\nLac repair kit\n18g needle\nSterile normal saline\n\n##Physical exam/further imaging:\nABI: If pulses aren't palpable manually or Dopplerable.\nSaline load test, anytime there is a laceration over joint. 95% sensitivity: \n~~194cc in knee\n~~40cc in elbow\n~~30cc in ankle \n\n##Interventions in ED:\nDirect pressure for hemostasis: Controls most bleeding, no need for tourniquet.\nCover in saline-soaked gauze: no evidence for aggressive washout in ED, as it can push debris inward.\nSplint: To decrease pain, minimize soft tissue trauma, and stabilize clots.\n\n##If operative, perform before calling PGY-4/attending:\n",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 4,
     "fields": {
         "Category": "General",
         "Injury": "Osteomyelitis",
@@ -34,29 +45,62 @@
 },
 {
     "model": "blog.plan",
-    "pk": 4,
+    "pk": 5,
     "fields": {
         "Category": "General",
         "Injury": "Septic arthritis",
         "Injury_key": "septic_arthritis",
-        "Acute_plan": "\"##Ask on the phone:\nAs soon as you get the call, be sure they have ordered CBC, ESR, CRP, and plain films of the joint. \nSerum lab values associated with septic joint:\n~~WBC > 10K with left shift\n~~ESR > 30\n~~CRP > 5\nMost will NOT be septic joint. HOWEVER, all must be treated as septic joint and seen urgently. Prioritize these consults. \n\n##What to get before seeing consult:\nAspiration supplies:\n~~Sterile urine specimen cup\n~~18-20 gauge needles\n~~30-60cc syringe\n~~Chloraprep sticks/swabs\n~~Specimen bag\n~~Pt sticker for specimen cup (sterile urinalysis cup)\n~~Culture swab\n\n##Physical exam/further imaging:\nAssess for pain with ROM. Painless PASSIVE or active ROM suggests less likely septic. \n\n##Interventions in ED:\nGenerally, if there is ANY concern (elevated inflamm markers and some pain), the attending will prefer that you aspirate the joint. \n~~After aspiration, transfer aspirate to the specimen cup. \n~~Apply pt sticker and be sure to sign, date, and time the specimen on the sticker (lab will refuse otherwise). Nurse can print the lab requisition.\nIf you get minimal aspirate (~1cc):\n~~Cell count can\u2019t be performed, but the swab can be used for gram stain/culture. \n~~On lab requisition sheet, write \"\"PRIORITIZE gram stain/culture, get crystals/cell count only if possible. \n~~Squirt the aspirate into the swab container in this situation.\nJoint fluid is LIQUID GOLD. ALWAYS walk the specimen to the lab yourself and physically hand it to a lab tech at the window. NEVER use tube system.\n\n##Wrap-up:\nAnalyze cell count/diff, gram stain and culture, and crystals.\n~~Wait until ALL of this information is back (gram stain is usually last) before calling 4. Even with crystals, there is a small chance of superinfection, so must have gram stain.\n~~WBC count >50k is likely septic\n~~If positive, proceed down \u201cprepping for surgery\u201d and find out availability, etc before calling 4.\"",
-        "Follow_up": ""
-    }
-},
-{
-    "model": "blog.plan",
-    "pk": 5,
-    "fields": {
-        "Category": "General",
-        "Injury": "Pathologic lesion",
-        "Injury_key": "pathologic_lesion",
-        "Acute_plan": "##Ask on the phone:\n~~Adequate x-rays (entire bone, joint above and below); \n~~Do they have a primary cancer diagnosis? Any known bony mets?\n~~NPO time\n\n##What to get before seeing consult:\n~~Consent: \u201cProphylactic fixation of [bone]\u201d vs. \u201cOperative fixation of pathologic [bone] fracture\u201d\n~~Confirm not pathologic fracture before seeing, as this changes how patient will be managed in ED\n\n##Physical exam/further imaging:\nKnown primary? If tumor of unknown origin, needs:\n~~MRI of entire bone: Getty likes to get MRIs but you should talk to 4th year before getting MRI but when you call 4th year it is something to discuss; Always put \u201ctumor protocol\u201d in special instructions\n~~CT C/A/P\n~~SPEP/UPEP\nFirst bony met? If this is first bony metastasis, needs an IR guided biopsy prior to prophylactic fixation\nLytic vs blastic? Pathologic fracture or not?\n\n##Wrap-up:\nAdmit to Medicine for tumor workup",
+        "Acute_plan": "##Ask on the phone:\nMake NPO\nAs soon as you get the call, be sure they have ordered CBC, ESR, CRP, and plain films of the joint. \nSerum lab values associated with septic joint:\n~~WBC > 10K with left shift\n~~ESR > 30\n~~CRP > 5\nMost will NOT be septic joint. HOWEVER, all must be treated as septic joint and seen urgently. Prioritize these consults. \n\n##What to get before seeing consult:\nAspiration supplies:\n~~Sterile urine specimen cup\n~~18-20 gauge needles\n~~30-60cc syringe\n~~Chloraprep sticks/swabs\n~~Specimen bag\n~~Pt sticker for specimen cup (sterile urinalysis cup)\n~~Culture swab\n~~Print lab requisition forms for cell count/gram stain/crystals/cultures (lab won't perform analysis without these orders on physical documents) \n\n##Physical exam/further imaging:\nTake picture of infection\nCheck for draining sinus tract\n~~Tract confirms infection, no need to aspirate\n~~No need to swab or culture tract, too contaminated to be helpful\nAssess for pain with ROM. Painless PASSIVE or active ROM suggests less likely septic. \n\n##Interventions in ED:\nGenerally, if there is ANY concern (elevated inflamm markers and some pain), the attending will prefer that you aspirate the joint. \n~~After aspiration, transfer aspirate to the specimen cup. \n~~Apply pt sticker and be sure to sign, date, and time the specimen on the sticker (lab will refuse otherwise).\nIf you get minimal aspirate (~1cc):\n~~Cell count can\u2019t be performed, but the swab can be used for gram stain/culture. \n~~On lab requisition sheet, write 'PRIORITIZE gram stain/culture, get crystals/cell count only if possible.' \n~~Squirt the aspirate into the swab container in this situation.\nJoint fluid is LIQUID GOLD. ALWAYS walk the specimen to the lab yourself and physically hand it to a lab tech at the window. NEVER use tube system.\nAnalyze cell count/diff, gram stain and culture, and crystals.\nWait until ALL of this information is back (gram stain is usually last) before calling 4. Even with crystals, there is a small chance of superinfection, so must have gram stain.\n\n##If operative, perform before calling PGY-4/attending:\nReview indications for acute surgery:\n~~Aspirate WBC >50K is indicate of infection\nMark/Consent for surgery: Irrigation and debridement, possible implant exchange, of <joint> arthroplasty with possible antibiotic spacer placement. \nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance. For details, refer to pre-operative clearance guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nDetermine operative options:\n~~I&D w/ polyethylene exchange vs two-stage revision (immediate removal of hardware and antibiotic spacer insertion, followed by later revision)\n~~Refer to orthobullets for details. If <3 weeks after surgery, can just do I&D. If >4 weeks, must do two-stage revision.\nCall reps: Call the implant maker from the OP report. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative/not immediately operative:\nFollow up with attending who did the surgery",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
     "pk": 6,
+    "fields": {
+        "Category": "General",
+        "Injury": "Prosthetic joint infection",
+        "Injury_key": "prosthetic_joint_infection",
+        "Acute_plan": "##Ask on the phone:\nMake NPO\nAs soon as you get the call, be sure they have ordered CBC, ESR, CRP, and plain films of the joint. \nWhen was the surgery? Who did the surgery?\nSerum lab values associated with prosthetic joint infection:\n~~ESR: >30mm/hr (if >6 weeks from surgery), not relevant if <6 weeks from surgery\n~~CRP: >100 mg/L (if <6 weeks from surgery); >10 mg/L (if >6 weeks from surgery) \nAre they septic?\n~~T, BP, HR?\n~~Check if they meet SIRS criteria\n\n##What to get before seeing consult:\nCheck op report in Allscripts or Physician Portal:\n~~Confirm surgeon and date of surgery\n~~Get implant info\nAspiration supplies:\n~~Sterile urine specimen cup\n~~18-20 gauge needles\n~~30-60cc syringe\n~~Chloraprep sticks/swabs\n~~Specimen bag\n~~Pt sticker for specimen cup (sterile urinalysis cup)\n~~Culture swab\n~~Print lab requisition forms for cell count/gram stain/crystals/cultures (lab won't perform analysis without these orders on physical documents) \n\n##Physical exam/further imaging:\nTake picture of infection\nWhen did symptoms start?\nAny draining sinus tract?\n~~Confirms PJI, no need  for joint aspiration\n~~No need to swab sinus tract for culture - too contaminated, shown not to be helpful\nAssess for pain with ROM. Painless PASSIVE or active ROM suggests less likely septic. \n\n##Interventions in ED:\nBEFORE YOU ASPIRATE, check with the PGY-4.\n~~If surgery was done by one of our joints attendings, they may want to hear about it first before aspiration \nAfter getting approval, aspirate joint. \n~~After aspiration, transfer aspirate to the specimen cup. \n~~Apply pt sticker and be sure to sign, date, and time the specimen on the sticker (lab will refuse otherwise).\n~~IF THA, have ED consult radiology for IR-guided joint aspiration\nIf you get minimal aspirate (~1cc):\n~~Cell count can\u2019t be performed, but the swab can be used for gram stain/culture. \n~~On lab requisition sheet, write <b>PRIORITIZE gram stain/culture, get crystals/cell count only if possible.</b> \n~~Squirt the aspirate into the swab container in this situation.\nJoint fluid is LIQUID GOLD. ALWAYS walk the specimen to the lab yourself and physically hand it to a lab tech at the window. NEVER use tube system.\nAnalyze cell count/diff, gram stain and culture, and crystals.\nWait until ALL of this information is back (gram stain is usually last) before calling 4. Even with crystals, there is a small chance of superinfection, so must have gram stain.\n\n##If operative, perform before calling PGY-4/attending:\nReview indications for acute surgery:\n~~Findings of PJI: <b>For TKA</b>, WBC count >1100 and PMN >64%. <b>For THA</b>, WBC count > 3000 and PMN >80%. \n~~Gram stain is more specific than sensitive, meaning that <b>if gram stain is positive, there is infection. If negative, does not rule out infection.</b>\n~~For extra points, may score MSIS criteria for PJI \nMark/Consent for surgery: Irrigation and debridement, possible implant exchange, of <joint> arthroplasty with possible antibiotic spacer placement. \nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance. For details, refer to pre-operative clearance guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nDetermine operative options:\n~~I&D w/ polyethylene exchange vs two-stage revision (immediate removal of hardware and antibiotic spacer insertion, followed by later revision)\n~~Refer to orthobullets for details. If <3 weeks after surgery, can just do I&D. If >4 weeks, must do two-stage revision.\nCall reps: Call the implant maker from the OP report. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative/not immediately operative:\nFollow up with attending who did the surgery",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 7,
+    "fields": {
+        "Category": "General",
+        "Injury": "Post-operative infection (not spine or joints)",
+        "Injury_key": "post_operative_infection_general",
+        "Acute_plan": "##Ask on the phone:\nMake NPO\nAs soon as you get the call, be sure they have ordered CBC, ESR, CRP, and plain films of the joint. \nWhen was the surgery? Who did the surgery?\nSerum lab values associated with infection: \n~~ESR: not sensitive, may remain elevated for months after surgery\n~~CRP: >2 (reference value at UH)\nAre they septic?\n~~T, BP, HR?\n~~Check if they meet SIRS criteria\n\n##What to get before seeing consult:\nCheck op report in Allscripts or Physician Portal:\n~~Confirm surgeon and date of surgery\n~~Get implant info\n\n##Physical exam/further imaging:\nWhen did symptoms start?\nCheck for any draining sinus tract\n~~Confirms infection, will need I&D in OR\n~~Don't swab tract for culture, too contaminated and not helpful\n\n##If operative, perform before calling PGY-4/attending:\nReview indications for acute surgery:\n~~Meets SIRS criteria\n~~Sinus tract, elevated CRP\nMark/Consent for surgery: Irrigation and debridement, possible revisioin/exchange, of hardware \nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance. For details, refer to pre-operative clearance guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\n\n##Wrap-up, if operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative/not immediately operative:\nFollow up with attending who did the surgery",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 8,
+    "fields": {
+        "Category": "General",
+        "Injury": "Avascular necrosis",
+        "Injury_key": "avascular_necrosis",
+        "Acute_plan": "##Ask on the phone:\nGet plain films of bone involved \n\n##Physical exam/further imaging:\nAssess for any pain \n\n##Wrap-up:\nPure AVNs never need acute surgery, unless it's hardware failure\nLet attending know about it and follow up with the attending on call",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 9,
+    "fields": {
+        "Category": "General",
+        "Injury": "Pathologic lesion",
+        "Injury_key": "pathologic_lesion",
+        "Acute_plan": "##Ask on the phone:\n~~Adequate x-rays (entire bone, joint above and below); \n~~Do they have a primary cancer diagnosis? Any known bony mets?\n~~NPO time\n\n##What to get before seeing consult:\n~~Consent: Prophylactic fixation of [bone] vs. Operative fixation of pathologic [bone] fracture\n~~Confirm not pathologic fracture before seeing, as this changes how patient will be managed in ED\n\n##Physical exam/further imaging:\nKnown primary? If tumor of unknown origin, needs:\n~~MRI of entire bone: Getty likes to get MRIs but you should talk to 4th year before getting MRI but when you call 4th year it is something to discuss; Always put \u201ctumor protocol\u201d in special instructions\n~~CT C/A/P\n~~SPEP/UPEP\nFirst bony met? If this is first bony metastasis, needs an IR guided biopsy prior to prophylactic fixation\nLytic vs blastic? Pathologic fracture or not?\n\n##Wrap-up:\nAdmit to Medicine for tumor workup",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 10,
     "fields": {
         "Category": "Shoulder",
         "Injury": "Shoulder dislocation",
@@ -67,40 +111,51 @@
 },
 {
     "model": "blog.plan",
-    "pk": 7,
+    "pk": 11,
     "fields": {
         "Category": "Humerus",
         "Injury": "Proximal humerus fracture",
         "Injury_key": "proximal_humerus_fracture",
-        "Acute_plan": "",
+        "Acute_plan": "##Ask on the phone:\nAP, lateral of humerus\nAP, lateral, axillary/velpeau view of shoulder\nPlace in a sling\n\n##Physical exam/further imaging\nNeurovascular exam:\n~~Check axillary nerve motor and sensory function\n~~Check radial nerve function\nAsk ED to get CT if articular surface is involved\n\n##If operative, perform before calling PGY-4/attending:\nReview indications for acute surgery:\n~~Any neurovascular compromise\n~~Greater trochanter displacement > 5mm - unstable rotator cuff\n~~Displaced anatomic/surgical neck fractures - more instability? \n~~Transverse fracture at surgical neck - more chance for displacement\n~~Head-splitting fracture - due to articular surface involvement\n~~3 or 4 part proximal humerus fracture - essentially comminuted and unstable\nMark/Consent for surgery: Open reduction internal fixation vs intramedullary nailing of proximal humerus \nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance. For details, refer to pre-operative clearance guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals/set-up:\n~~ Will need DepuySynthes vs Stryker ORIF vs IMN sets.\n~~ For ORIF, will need a low profile precontoured locking plate, placed through a deltopectoral approach. Patient should be supine on radiolucent OR table with arm board and C-arm, with bed rotated 90 degrees so that the injured shoulder is opposite the anesthesia team.\n~~ For IMN, will need a short/long nail placed through a deltoid-splitting approach. Patient should be spine on radiolucent OR table with arm board and C-arm, with bed rotated 90 degrees so that the injured shoulder is opposite the anesthesia team. \n~~ For hemiarthroplasty, place implant through deltopectoral approach. Patient should be spine on radiolucent OR table with arm board and C-arm, with bed rotated 90 degrees so that the injured shoulder is opposite the anesthesia team. \nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative/not immediately operative:\nRecommend NWB in sling, follow up with attending on call.",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 8,
+    "pk": 12,
     "fields": {
         "Category": "Humerus",
         "Injury": "Humeral shaft fracture",
         "Injury_key": "humeral_shaft_fracture",
-        "Acute_plan": "",
+        "Acute_plan": "##Ask on the phone:\nAP, lateral of humerus - Any lytic lesions? Signs of pathologic fracture?\nAP, lateral, axillary/velpeau view of shoulder - Shoulder dislocation?\nAP, lateral of elbow - Elbow dislocation?\nAP, lateral of forearm - Check for forearm fracture to rule out 'floating elbow'\n\n##What to get before seeing consult:\nSupplies for coaptation splint\nPost-splint AP/lat humerus - put this in now so you don't forget later\n\n##Physical exam/further imaging:\nNeurovascular exam: Check radial nerve function\n\n##Interventions in ED:\nPlace in coaptation splint\n~~Place in valgus mold to counteract pull of deltoid muscle - medial force on proximal fragment, lateral force on distal fragment\n~~These will always drift distally, so make sure to place proximal end way past the acromion, almost to the level of the neck\n~~Parameters for acceptable reduction: <20 deg AP angulation, <30 deg valgus/varus angulation, <3cm shortening \n\n##If operative, perform before calling PGY-4/attending:\nReview indications for acute surgery:\n~~Ipsilateral forearm fracture - 'floating elbow', since elbow is disconnected from both elbow and arm, so needs to be reattached to humerus\n~~Pathologic fracture\n~~Any neurovascular compromise - brachial plexus injury only, radial palsy alone is NOT indication for surgery\n~~Compartment syndrome/open fractures\n~~Polytrauma - patient will need arm for mobilization\nMark/Consent for surgery: Open reduction internal fixation vs intramedullary nailing of humerus\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance. For details, refer to pre-operative clearance guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals/set-up:\n~~ Will need DepuySynthes vs Stryker ORIF vs IMN sets.\n~~ For ORIF, will need a low profile precontoured locking plate, placed through a deltopectoral approach. Patient should be supine on radiolucent OR table with arm board and C-arm, with bed rotated 90 degrees so that the injured shoulder is opposite the anesthesia team.\n~~ For IMN, will need a long nail placed through a deltoid-splitting approach. Patient should be spine on radiolucent OR table with arm board and C-arm, with bed rotated 90 degrees so that the injured shoulder is opposite the anesthesia team. \nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative/not immediately operative:\nNWB in coaptation splint, follow up with attending on call.",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 9,
+    "pk": 13,
     "fields": {
         "Category": "Humerus",
         "Injury": "Distal humerus fracture",
         "Injury_key": "distal_humerus_fracture",
+        "Acute_plan": "##Ask on the phone:\nNPO - high chance of acute surgery\nAP, lateral elbow\nAP, lateral of humerus - for possible operative planning\nAP, lateral forearm\n~~To rule out 'floating elbow'\n~~Check for olecranon fractures - may complicate Chevron olecranon osteotomy during surgery. Total elbow arthroplasty also needs intact olecranon\nCT elbow w/ 3D recon - to assess for intra-articular involvement and help operative planning\n\n##What to get before seeing consult:\nPost-splint AP/lat elbow - do this now so you don't forget later \nMaterial for posterior long arm splint\n\n##Physical exam/further imaging:\nClassify fracture:\n~~OTA Type A, B, C\n~~Milch Type I or II\nDO NOT range elbow, to avoid risk of further neurovascular injury\nNeuro exam:\n~~Check axillary nerve motor and sensory function\n~~Check radial nerve function\nVascular exam:\n~~Doppler radial/ulnar pulses - high chance of disruption since brachial artery is very near distal humerus. \n~~Ask ED to consult vascular surgery if there's any abnormality in pulses\nIf >2 fragments, get traction view\n~~Much better than CT in defining fragments.\n~~Have low threshold for getting one\n\n##Intereventions in the ED:\nPlace in posterior long arm splint\n\n##If operative, perform before calling PGY-4/attending:\nReview indications for acute surgery:\n~~Consider all distal humerus fractures as operative, except maybe non-displaced Type C fractures. Don't waste time studying indications and trying to sound smart.\nMark/Consent for surgery: Open reduction internal fixation vs elbow arthroplasty, possible perctaneous pinning, of distal humerus\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance. For details, refer to pre-operative clearance guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals/set-up:\n~~ Will need small-fragment set.\n~~ For ORIF, will need 3.5mm DCP or pelvic recon plates, placed through a a posterior Chevron olecranon osteotomy, with patient placed in lateral decupitus and a radiolucent arm board.   \n\n##Wrap-up, if operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative/not immediately operative:\nRarely will be the case, only for truly Type C supracondylar fracture\nNWB in splint, follow up with attending on call.",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 14,
+    "fields": {
+        "Category": "Elbow",
+        "Injury": "Elbow dislocation",
+        "Injury_key": "elbow_dislocation",
         "Acute_plan": "",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 10,
+    "pk": 15,
     "fields": {
         "Category": "Hand",
         "Injury": "Metacarpal fracture",
@@ -111,7 +166,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 11,
+    "pk": 16,
     "fields": {
         "Category": "Hand",
         "Injury": "Tendon injury",
@@ -122,7 +177,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 12,
+    "pk": 17,
     "fields": {
         "Category": "Hand",
         "Injury": "Nailbed injury",
@@ -133,7 +188,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 13,
+    "pk": 18,
     "fields": {
         "Category": "Hand",
         "Injury": "Finger amputation",
@@ -144,7 +199,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 14,
+    "pk": 19,
     "fields": {
         "Category": "Hand",
         "Injury": "Hand infection",
@@ -155,7 +210,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 15,
+    "pk": 20,
     "fields": {
         "Category": "Hand",
         "Injury": "Flexor tenosynovitis",
@@ -166,7 +221,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 16,
+    "pk": 21,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Occipitocervical injury",
@@ -177,18 +232,18 @@
 },
 {
     "model": "blog.plan",
-    "pk": 17,
+    "pk": 22,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "C1 (Atlas) fracture",
         "Injury_key": "c1_(atlas)_fracture",
-        "Acute_plan": "##Ask on the phone:\nAP, lateral, and open mouth odontoid XRs: Calculate ADI, SAC, lateral mass displacement from normal XRs. \nGet CT: Method of choice.\n\n##Physical exam/further imaging:\nAsk about adult associated conditions: Down syndrome, RA\nAsk about pediatric associated conditions: JRA, Morquio's syndrome, rotatory atlantoaxial subluxation\n~~Consider flexion-extension views: Required for pre-operative clearance and true ADI and SAC, but do not order them in ED without discussion with senior.\nGet Landells atlas fracture classification: Based off CT. Type I,II,III.\nCalculate ADI: \n~~From lateral. Distance b/w odontoid and anterior atlas. \n~~>3mm is unstable in adults, >5mm is unstable in children,  >10mm is indication for surgery in RA\nCalculate SAC:\n~~From lateral. Distance b/w odontoid and to posterior atlas.\n~~<13mm is unstable, <14mm is indication for surgery in RA patients.\nCalculate sum of both lateral mass displacement: From odontoid view. >7mm indicates transverse ligmanet disruption, is unstable\nAssess for other spine injuries: 50% incidence\nConduct neuro exam: full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's) \nConsider MRI: Discuss with senior at this point, if you suspect ligamentous disruption or unstable neuro exam.\n\n##Wrap-up:\nLikely trauma admission: Considered high energy injury, recommend Aspen collar and observation for 24hrs\nPost for OR: If unstable ligamentous injury or neuro exam. Post for posterior C1-C2 fusion vs. occipitocervical fusion.\u00a0",
+        "Acute_plan": "##Ask on the phone:\nAP, lateral, and open mouth odontoid XRs: Calculate ADI, SAC, lateral mass displacement from normal XRs. \nGet CT: Method of choice.\n\n##Physical exam/further imaging:\nAsk about adult associated conditions: Down syndrome, RA\nAsk about pediatric associated conditions: JRA, Morquio's syndrome, rotatory atlantoaxial subluxation\nConsider flexion-extension views: Required for pre-operative clearance and true ADI and SAC, but do not order them in ED without discussion with senior.\nGet Landells atlas fracture classification: Based off CT. Type I,II,III.\nCalculate ADI: \n~~From lateral. Distance b/w odontoid and anterior atlas. \n~~>3mm is unstable in adults, >5mm is unstable in children,  >10mm is indication for surgery in RA\nCalculate SAC:\n~~From lateral. Distance b/w odontoid and to posterior atlas.\n~~<13mm is unstable, <14mm is indication for surgery in RA patients.\nCalculate sum of both lateral mass displacement: From odontoid view. >7mm indicates transverse ligmanet disruption, is unstable\nAssess for other spine injuries: 50% incidence\nConduct neuro exam: full upper and lower extremities, saddle anesthesia, rectal tone, long tract signs (clonus, hyperreflexia, Babinski, Hoffman's) \nConsider MRI: Discuss with senior at this point, if you suspect ligamentous disruption or unstable neuro exam.\n\n##Wrap-up:\nLikely trauma admission: Considered high energy injury, recommend Aspen collar and observation for 24hrs\nPost for OR: If unstable ligamentous injury or neuro exam. Post for posterior C1-C2 fusion vs. occipitocervical fusion.\u00a0",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 18,
+    "pk": 23,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "C2 (Axis) fracture",
@@ -199,7 +254,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 19,
+    "pk": 24,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Traumatic axial spondylolisthesis (Hangman's fracture)",
@@ -210,7 +265,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 20,
+    "pk": 25,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Cervical facet injuries",
@@ -221,7 +276,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 21,
+    "pk": 26,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Subaxial vertebral body fractures",
@@ -232,7 +287,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 22,
+    "pk": 27,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Cervical extension teardrop fracture",
@@ -243,7 +298,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 23,
+    "pk": 28,
     "fields": {
         "Category": "Cervical_spine",
         "Injury": "Central cord syndrome/cervical stenosis",
@@ -254,7 +309,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 24,
+    "pk": 29,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Thoracolumbar burst fracture",
@@ -265,7 +320,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 25,
+    "pk": 30,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Chance fracture (flexion-distraction injury)",
@@ -276,7 +331,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 26,
+    "pk": 31,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Thoracolumbar fracture-dislocation",
@@ -287,7 +342,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 27,
+    "pk": 32,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Thoracolumbar compression fracture",
@@ -298,7 +353,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 28,
+    "pk": 33,
     "fields": {
         "Category": "Thoracolumbar_spine",
         "Injury": "Cauda equina syndrome and lumbar stenosis",
@@ -309,7 +364,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 29,
+    "pk": 34,
     "fields": {
         "Category": "Spine_general",
         "Injury": "Vertebral osteomyelitis",
@@ -320,7 +375,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 30,
+    "pk": 35,
     "fields": {
         "Category": "Spine_general",
         "Injury": "Spinal epidural abscess",
@@ -331,7 +386,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 31,
+    "pk": 36,
     "fields": {
         "Category": "Spine_general",
         "Injury": "Spine post-operative infection",
@@ -342,7 +397,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 32,
+    "pk": 37,
     "fields": {
         "Category": "Spine_general",
         "Injury": "Misc spine post-operative issues",
@@ -353,18 +408,18 @@
 },
 {
     "model": "blog.plan",
-    "pk": 33,
+    "pk": 38,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "APC pelvic ring fracture",
         "Injury_key": "apc_pelvic_ring_fracture",
-        "Acute_plan": "##Ask on the phone:\nHemodynamic status: Instability requires prompt pelvic binder placement and immediate text to PGY4 as a heads-up.\nNPO\nAP pelvis, inlet/outlet pelvis, full-length femurs\nAsk for foley before getting XRs\nCT pelvis\n\n##Physical exam/further imaging:\nClassify fracture: APC I-III\nAssess pubic diastasis and SI joint widening: >2.5cm is diastasis and any SI joint widening (means SI ligaments are torn) are possibly operative \nPerform appropriate physical exam, especially genitourinary/rectal: \n~~ Make sure to check for any blood in vagina or penile meatus. If so, needs a urology consult for possible retrograde cystogram and suprapubic catheter. A rectal tear carries a high morbidity, so do a good rectal exam and communicate findings.\nIf stability equivocal on xray (i.e. pubic diastasis ~2.5cm), reasssess pelvic stability: \n~~ Place outward force on bilateral iliac wings at the level of the ASIS.\n~~ This should be done ONCE, as multiple assessments can disrupt pelvic clot, needed to stabilize bleeding.\nIf pelvic binder is on, make sure it's placed on correctly: AT THE LEVEL OF THE GREATER TROCHANTERS\nAsk for ambulatory status before injury: \n~~ Important for non-op vs op in stable injuries\n~~ Are they active person playing tennis every weekend or do they use a walker to get from couch to bathroom? Alcoholic? Demented? \n~~ Pre existing hip/groin pain suggestive of longstanding OA? Pathologic fracture?\n\n##If operative, pefrom before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out surgical plans from general surgery: If gen surg takes patient to OR, the ortho attending on call may place an ex-fix or peritoneal packing in the same case.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals/set-up:\n~~ Will need pelvic recon and small frag sets.\n~~ For pubic diastasis, will need a multi-hole pelvic recon plate, placed superiorly through a rectus-splitting Pfannenstiel approach (small horizontal incision in rectus) or a modified Stoppa approach (large vertical incision in rectus, for wider visualizing of pubic bodies), with patient supine on a fracture table and C-arm.\n~~ For SI joint widening, will need percutaneous SI screws through S1 vertebral body, patient supine as above.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative:\nRecommend WBAT, follow up with attending on call.\nMost of these will likely be admitted to trauma service, as these are high energy injuries with associated injuries.",
+        "Acute_plan": "##Ask on the phone:\nHemodynamic status: Instability requires prompt pelvic binder placement and immediate text to PGY4 as a heads-up.\nNPO\nAP pelvis, inlet/outlet pelvis, full-length femurs\nAsk for foley before getting XRs\nCT pelvis\n\n##Physical exam/further imaging:\nClassify fracture: APC I-III\nAssess pubic diastasis and SI joint widening: >2.5cm is diastasis and any SI joint widening (means SI ligaments are torn) are possibly operative \nPerform appropriate physical exam, especially genitourinary/rectal: \n~~ Make sure to check for any blood in vagina or penile meatus. If so, needs a urology consult for possible retrograde cystogram and suprapubic catheter. A rectal tear carries a high morbidity, so do a good rectal exam and communicate findings.\nIf stability equivocal on xray (i.e. pubic diastasis ~2.5cm), reasssess pelvic stability: \n~~ Place outward force on bilateral iliac wings at the level of the ASIS.\n~~ This should be done ONCE, as multiple assessments can disrupt pelvic clot, needed to stabilize bleeding.\nIf pelvic binder is on, make sure it's placed on correctly: AT THE LEVEL OF THE GREATER TROCHANTERS\nAsk for ambulatory status before injury: \n~~ Important for non-op vs op in stable injuries\n~~ Are they active person playing tennis every weekend or do they use a walker to get from couch to bathroom? Alcoholic? Demented? \n~~ Pre existing hip/groin pain suggestive of longstanding OA? Pathologic fracture?\n\n##If operative, pefrom before calling PGY4 or attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out surgical plans from general surgery: If gen surg takes patient to OR, the ortho attending on call may place an ex-fix or peritoneal packing in the same case.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals/set-up:\n~~ Will need pelvic recon and small frag sets.\n~~ For pubic diastasis, will need a multi-hole pelvic recon plate, placed superiorly through a rectus-splitting Pfannenstiel approach (small horizontal incision in rectus) or a modified Stoppa approach (large vertical incision in rectus, for wider visualizing of pubic bodies), with patient supine on a fracture table and C-arm.\n~~ For SI joint widening, will need percutaneous SI screws through S1 vertebral body, patient supine as above.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative:\nRecommend WBAT, follow up with attending on call.\nMost of these will likely be admitted to trauma service, as these are high energy injuries with associated injuries.",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 34,
+    "pk": 39,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "LC pelvic ring fracture",
@@ -375,7 +430,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 35,
+    "pk": 40,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Vertical pelvic ring fracture",
@@ -386,7 +441,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 36,
+    "pk": 41,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Pubic rami fracture",
@@ -397,7 +452,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 37,
+    "pk": 42,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Acetabulum fracture",
@@ -408,7 +463,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 38,
+    "pk": 43,
     "fields": {
         "Category": "Pelvis_acetabulum",
         "Injury": "Sacral fracture",
@@ -419,7 +474,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 39,
+    "pk": 44,
     "fields": {
         "Category": "Hip",
         "Injury": "Hip dislocation",
@@ -430,7 +485,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 40,
+    "pk": 45,
     "fields": {
         "Category": "Hip",
         "Injury": "Femoral neck",
@@ -441,7 +496,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 41,
+    "pk": 46,
     "fields": {
         "Category": "Hip",
         "Injury": "Proximal femur periprosthetic fracture",
@@ -452,7 +507,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 42,
+    "pk": 47,
     "fields": {
         "Category": "Hip",
         "Injury": "Intertrochanteric femur",
@@ -463,7 +518,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 43,
+    "pk": 48,
     "fields": {
         "Category": "Hip",
         "Injury": "Subtrochanteric femur",
@@ -474,7 +529,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 44,
+    "pk": 49,
     "fields": {
         "Category": "Femur",
         "Injury": "Femoral shaft fracture",
@@ -485,7 +540,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 45,
+    "pk": 50,
     "fields": {
         "Category": "Femur",
         "Injury": "Distal femur fracture",
@@ -496,40 +551,40 @@
 },
 {
     "model": "blog.plan",
-    "pk": 46,
+    "pk": 51,
     "fields": {
         "Category": "Knee",
         "Injury": "Knee dislocation",
         "Injury_key": "knee_dislocation",
-        "Acute_plan": "",
+        "Acute_plan": "Medial plateau is deeper and forced distal femur to clear it for dislocation that is why medial plateau injury you check for dislocstion \n\nAlways get ABI for really obese patients with knee dislocation \n\nVascular consult!\n\nSplint at 20 deg so the femur is reduced a bit, otherwise there may be posterior translation\n\nRevascularize within 6 hours to avoid amputation\n",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 47,
+    "pk": 52,
     "fields": {
         "Category": "Knee",
         "Injury": "Tibial plateau fracture",
         "Injury_key": "tibial_plateau_fracture",
-        "Acute_plan": "##Ask on the phone\nMake NPO: Most hip fractures are most likely going to be operative\nAsk for labs: CBC, BMP, Coag, Type and Screen (or type and cross for 2 units for hemi), EKG, CXR, Foley, bHCG when appropriate\nAsk for proper xrays: \n~~Standard AP/lateral of knee \n~~Get CT, assess for posterior coronal fragment and assess joint congruity\n\n##Physical exam/further imaging:\nClassify fracture: Schatzker I-VI\n~~Schatzker IV-VI have higher risk of NV compromise. \nPerform appropriate physical exam, including a detailed vascular exam and ABI:\n~~Always get ABI regardless of Schatzkers, it's easy and attendings will ask. Get Dopplers if ABI < 0.8\n~~Palpate pulse -> Doppler pulse if not palpable -> get vascular consult and CT angiogram if no Doppler pulse\nPerform a careful knee ligamentous stability exam: \n~~Schatzker II -> lateral meniscus tear, Schatzker IV -> dislocation, Schatzker IV-VI -> ACL tear\n\n##Intervention in ED:\nPlace in knee immobilizer vs long leg splint:\n~~For Schatzker I-III, place in WELL-PADDED KI with tons of webroll, even ABDs.\n~~For Schatzker IV-VI, basically with any involvement of medial plateau, place in long leg splint to minimize dislocation and rotational instability.\n\n##If operative, perform before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~If planning ORIF, will need tibial buttress plate from the large frag set (Stryker or DepuySynthes), placed through medial, lateral, and/or posterior approach with patient supine on a radiolucent flat-top OR table and leg flexed over a triangle, and C-arm on contralteral side.\n~~If planning ex-fix, will need knee-spanning ex-fix with 2 Schanz pins in midshaft femur and 2 Schanz pins in midshaf tibia, placing patient supine on a radiolucent flat-top OR table with leg over a triangle, and C-arm on contralateral side.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nIf admitted to ortho and going next day, follow neurovascular exam overnight.\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative:\nSchatzkers I-III can be discharged in a knee immobilizer and WBAT, after discussion with attendings, since these are not grossly unstable.",
+        "Acute_plan": "##Ask on the phone\nMake NPO: Most hip fractures are most likely going to be operative\nAsk for labs: CBC, BMP, Coag, Type and Screen (or type and cross for 2 units for hemi), EKG, CXR, Foley, bHCG when appropriate\nAsk for proper xrays: \n~~Standard AP/lateral of knee \n~~Get CT, assess for posterior coronal fragment and assess joint congruity\n\n##Physical exam/further imaging:\nClassify fracture: Schatzker I-VI\n~~Schatzker IV-VI have higher risk of NV compromise. \n~~Medial plateau is normally deeper, which normally keeps the distal femur in its place. This is why with medial plateau injury you must be suspicious for dislocation.\nPerform appropriate physical exam, including a detailed vascular exam and ABI:\n~~Always get ABI regardless of Schatzkers, it's easy and attendings will ask. Get Dopplers if ABI < 0.8\n~~Palpate pulse -> Doppler pulse if not palpable -> get vascular consult and CT angiogram if no Doppler pulse\nPerform a careful knee ligamentous stability exam: \n~~Schatzker II -> lateral meniscus tear, Schatzker IV -> dislocation, Schatzker IV-VI -> ACL tear\n\n##Intervention in ED:\nPlace in knee immobilizer vs long leg splint:\n~~For Schatzker I-III, place in WELL-PADDED KI with tons of webroll, even ABDs.\n~~For Schatzker IV-VI, basically with any involvement of medial plateau, place in long leg splint to minimize dislocation and rotational instability.\n\n##If operative, perform before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~If planning ORIF, will need tibial buttress plate from the large frag set (Stryker or DepuySynthes), placed through medial, lateral, and/or posterior approach with patient supine on a radiolucent flat-top OR table and leg flexed over a triangle, and C-arm on contralteral side.\n~~If planning ex-fix, will need knee-spanning ex-fix with 2 Schanz pins in midshaft femur and 2 Schanz pins in midshaf tibia, placing patient supine on a radiolucent flat-top OR table with leg over a triangle, and C-arm on contralateral side.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nIf admitted to ortho and going next day, follow neurovascular exam overnight.\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative:\nSchatzkers I-III can be discharged in a knee immobilizer and WBAT, after discussion with attendings, since these are not grossly unstable.",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 48,
+    "pk": 53,
     "fields": {
         "Category": "Knee",
         "Injury": "TKA periprosthetic fracture",
         "Injury_key": "tka_periprosthetic_fracture",
-        "Acute_plan": "##Ask on the phone\nMake NPO: Most distal femur periprosthetic fracture are ikely going to be operative\nAsk for labs: CBC, BMP, Coag, Type and Screen (or type and cross for 2 units for hemi), EKG, CXR, Foley, bHCG when appropriate\nAsk for proper xrays: \n~~AP/lat/oblique views of knee\n~~Full length tibia XR and femur XR, needed to assess implant path and rotational alignment. They never get these, so ask for them, ask for all this stuff before you hang up the phone for the consult.\n\n##What to get before seeing consult:\nLook in post-operative note for implant info: Surgeon, company, implant type\n\n##Physical exam/further imaging:\nClassify fracture: Su I-III\nAssess for tibia, distal femur, patella fractures - often commonly associated\nGet traction view AP/lateral/oblique: \n~~Can better define fracture pattern \n~~Abort if too painful for patient\n\n##If considering admission for surgery/obs, perform before calling PGY4 and attending:\nReview indications for surgery:\n~~Unstable\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~ORIF\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant",
+        "Acute_plan": "##Ask on the phone\nMake NPO: Most distal femur periprosthetic fracture are ikely going to be operative\nAsk for labs: CBC, BMP, Coag, Type and Screen (or type and cross for 2 units for hemi), EKG, CXR, Foley, bHCG when appropriate\nAsk for proper xrays: \n~~AP/lat/oblique views of knee\n~~Full length tibia XR and femur XR, needed to assess implant path and rotational alignment. They never get these, so ask for them, ask for all this stuff before you hang up the phone for the consult.\n\n##What to get before seeing consult:\nLook in post-operative note for implant info: Surgeon, company, implant type\n\n##Physical exam/further imaging:\nClassify fracture: Su I-III\nAssess for tibia, distal femur, patella fractures - often commonly associated\nGet traction view AP/lateral/oblique: \n~~Can better define fracture pattern \n~~Abort if too painful for patient\n\n##If operative, perform before calling PGY4 and attending:\nReview indications for surgery:\n~~Unstable implant\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~ORIF\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 49,
+    "pk": 54,
     "fields": {
         "Category": "Knee",
         "Injury": "Patella fracture",
@@ -540,40 +595,40 @@
 },
 {
     "model": "blog.plan",
-    "pk": 50,
+    "pk": 55,
     "fields": {
         "Category": "Tibia",
         "Injury": "Tibial plateau fracture",
         "Injury_key": "tibial_plateau_fracture",
-        "Acute_plan": "##Ask on the phone\nMake NPO: Most hip fractures are most likely going to be operative\nAsk for labs: CBC, BMP, Coag, Type and Screen (or type and cross for 2 units for hemi), EKG, CXR, Foley, bHCG when appropriate\nAsk for proper xrays: \n~~Standard AP/lateral of knee \n~~Get CT, assess for posterior coronal fragment and assess joint congruity\n\n##Physical exam/further imaging:\nClassify fracture: Schatzker I-VI\n~~Schatzker IV-VI have higher risk of NV compromise. \nPerform appropriate physical exam, including a detailed vascular exam and ABI:\n~~Always get ABI regardless of Schatzkers, it's easy and attendings will ask. Get Dopplers if ABI < 0.8\n~~Palpate pulse -> Doppler pulse if not palpable -> get vascular consult and CT angiogram if no Doppler pulse\nPerform a careful knee ligamentous stability exam: \n~~Schatzker II -> lateral meniscus tear, Schatzker IV -> dislocation, Schatzker IV-VI -> ACL tear\n\n##Intervention in ED:\nPlace in knee immobilizer vs long leg splint:\n~~For Schatzker I-III, place in WELL-PADDED KI with tons of webroll, even ABDs.\n~~For Schatzker IV-VI, basically with any involvement of medial plateau, place in long leg splint to minimize dislocation and rotational instability.\n\n##If operative, perform before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~If planning ORIF, will need tibial buttress plate from the large frag set (Stryker or DepuySynthes), placed through medial, lateral, and/or posterior approach with patient supine on a radiolucent flat-top OR table and leg flexed over a triangle, and C-arm on contralteral side.\n~~If planning ex-fix, will need knee-spanning ex-fix with 2 Schanz pins in midshaft femur and 2 Schanz pins in midshaf tibia, placing patient supine on a radiolucent flat-top OR table with leg over a triangle, and C-arm on contralateral side.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nIf admitted to ortho and going next day, follow neurovascular exam overnight.\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative:\nSchatzkers I-III can be discharged in a knee immobilizer and WBAT, after discussion with attendings, since these are not grossly unstable.",
+        "Acute_plan": "##Ask on the phone\nMake NPO: Most hip fractures are most likely going to be operative\nAsk for labs: CBC, BMP, Coag, Type and Screen (or type and cross for 2 units for hemi), EKG, CXR, Foley, bHCG when appropriate\nAsk for proper xrays: \n~~Standard AP/lateral of knee \n~~Get CT, assess for posterior coronal fragment and assess joint congruity\n\n##Physical exam/further imaging:\nClassify fracture: Schatzker I-VI\n~~Schatzker IV-VI have higher risk of NV compromise. \nPerform appropriate physical exam, including a detailed vascular exam and ABI:\n~~Always get ABI regardless of Schatzkers, it's easy and attendings will ask. Get Dopplers if ABI < 0.8\n~~Palpate pulse -> Doppler pulse if not palpable -> get vascular consult and CT angiogram if no Doppler pulse\nPerform a careful knee ligamentous stability exam: \n~~Schatzker II -> lateral meniscus tear, Schatzker IV -> dislocation, Schatzker IV-VI -> ACL tear\n\n##Intervention in ED:\nPlace in knee immobilizer vs long leg splint:\n~~For Schatzker I-III, place in WELL-PADDED KI with tons of webroll, even ABDs.\n~~For Schatzker IV-VI, basically with any involvement of medial plateau, place in long leg splint to minimize dislocation and rotational instability.\n\n##If operative, perform before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~If planning ORIF, will need tibial buttress plate from the large frag set (Stryker or DepuySynthes), placed through medial, lateral, and/or posterior approach with patient supine on a radiolucent flat-top OR table and leg flexed over a triangle, and C-arm on contralteral side.\n~~If planning ex-fix, will need knee-spanning ex-fix with 2 Schanz pins in midshaft femur and 2 Schanz pins in midshaf tibia, placing patient supine on a radiolucent flat-top OR table with leg over a triangle, and C-arm on contralateral side.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, if operative:\nIf admitted to ortho and going next day, follow neurovascular exam overnight.\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant\n\n##Wrap-up, if non-operative/non-acute surgery:\nSchatzkers I-III can be discharged in a knee immobilizer and WBAT, after discussion with attendings, since these are not grossly unstable.",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 51,
+    "pk": 56,
     "fields": {
         "Category": "Tibia",
         "Injury": "Tibial shaft fracture",
         "Injury_key": "tibial_shaft_fracture",
-        "Acute_plan": "##Ask on the phone:\nMake NPO: These are always operative\nGet appropriate xrays: full tibia films, ankle and knee films\nGet CT if in distal 1/3 of shaft: High association with posterior malleolus fracture\n\n##Physical exam/further imaging:\nPerform appropriate physical exam, including a detailed vascular exam and ABI:\n~~Always get ABI, it's easy and attendings will ask. Get Dopplers if ABI < 0.8\n~~Palpate pulse -> Doppler pulse if not palpable -> get vascular consult and CT angiogram if no Doppler pulse\n\n##Interventions in ED:\nAlways place in long leg splint splint, regardless of location: Need to control rotational stability.\nGet post-splint xrays: Need to check alignment.\n\n##If operative, perform before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~For IMN, will need Stryker or DepuySynthes (attending preference) tibial nail, placed through starting point (just medial to lateral tibial plateau), with patient supine on a radiolucent flat-op OR table. Hip should be bumped, and C-arm should be on contralateral side.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant",
+        "Acute_plan": "##Ask on the phone:\nMake NPO: These are always operative\nGet appropriate xrays: full tibia films, ankle and knee films\nGet CT if in distal 1/3 of shaft: High association with posterior malleolus fracture\n\n##Physical exam/further imaging:\nPerform appropriate physical exam, including a detailed vascular exam and ABI:\n~~Always get ABI, it's easy and attendings will ask. Get Dopplers if ABI < 0.8\n~~Palpate pulse -> Doppler pulse if not palpable -> get vascular consult and CT angiogram if no Doppler pulse\n\n##Interventions in ED:\nAlways place in long leg splint splint, regardless of location: Need to control rotational stability.\nGet post-splint xrays: Need to check alignment.\n\n##If operative, perform before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~For IMN, will need Stryker or DepuySynthes (attending preference) tibial nail, placed through starting point (just medial to lateral tibial plateau), with patient supine on a radiolucent flat-op OR table. Hip should be bumped, and C-arm should be on contralateral side.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up, always operative:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 52,
+    "pk": 57,
     "fields": {
         "Category": "Ankle_foot",
         "Injury": "Pilon fracture",
         "Injury_key": "pilon_fracture",
-        "Acute_plan": "##Ask on the phone:\nMake NPO: These will always require inpatient ex-fix or definitive fixation.\nGet appropriate xrays, including post-splint xray: \nStandard AP/lateral, foot AP/lateral. Place post-splint xrays now so you don't forget later.\nIf ankle needs reduction, place order for fluoroscopy, then grab fluoro machine: Do this now so you can drag fluoro machine straight to patient.\nDO NOT get CT until AFTER ex-fix: Oftentimes these are too comminuted to be viewed well on CT.\n\n##Physical exam/further imaging:\nMaterial for short leg splint\n\n##Radiographic/physical exam:\nPerform appropriate physical exam, including skin integrity:\nSwelling and skin integrity will determine ex-fix vs definitive fixation. \nLook for open vs closed. If there is a laceration over the joint line, load the joint to rule out arthrotomy.\n\n##Interventions in ED:\nPlace in short leg splint: Refer to short leg splint guide.\nGet post-splint xrays: Need to check alignment.\n\n##If operative, perform before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~If planning ex-fix, will need 2 Schanz pins in midshaft of tibia and 1 threaded pin in calcaneal tuberosity medial to lateral. Patient should be supine on a radiolucent OR table, with hip bumped, and C-arm on contralteral side.\n~~If planning ORIF, will need small frag set for anteriolateral, posterolateral approaches, with patient supine on radiolucent OR table, hip bumped, and C-arm on contralateral side.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant",
+        "Acute_plan": "##Ask on the phone:\nMake NPO: These will always require inpatient ex-fix or definitive fixation.\nGet appropriate xrays, including post-splint xray: \nStandard AP/lateral, foot AP/lateral. Place post-splint xrays now so you don't forget later.\nIf ankle needs reduction, place order for fluoroscopy, then grab fluoro machine: Do this now so you can drag fluoro machine straight to patient.\nDO NOT get CT until AFTER ex-fix: Oftentimes these are too comminuted to be viewed well on CT.\n\n##What to get before seeing consult:\nMaterial for short leg splint\n\n##Radiographic/physical exam:\nPerform appropriate physical exam, including skin integrity:\nSwelling and skin integrity will determine ex-fix vs definitive fixation. \nLook for open vs closed. If there is a laceration over the joint line, load the joint to rule out arthrotomy.\nCareful neurovascular check:\n~~Palpate and Doppler pulses\n~~Get ABI: <0.9 requires vascular consult\n\n##Interventions in ED:\nPlace in short leg splint: Refer to short leg splint guide.\nGet post-splint xrays: Need to check alignment.\n\n##If operative, perform before calling PGY4 and attending:\nMark/Consent for surgery.\nMake copy of consent and place original in chart. Make sure to put copy in call room or give it to next call resident.\nKeep NPO and NWB.\nFind out OR availability: Call to ask for OR availability today and tomorrow.\nAsk for clearance:\nRefer to pre-operative clearance  guide.\n~~ If overnight, call anesthesia.\n~~ If during the day and with multiple comorbidities, or for syncopal fall, call medicine.\n~~ If trauma activation, call trauma.\n~~ If patient goes to ICU, ask for clearance again in morning: These patients have to be reassessed every AM, as their stability may change.\nPlan needed implants and operative approach/intervals:\n~~If planning ex-fix, will need 2 Schanz pins in midshaft of tibia and 1 threaded pin in calcaneal tuberosity medial to lateral. Patient should be supine on a radiolucent OR table, with hip bumped, and C-arm on contralteral side.\n~~If planning ORIF, will need small frag set for anteriolateral, posterolateral approaches, with patient supine on radiolucent OR table, hip bumped, and C-arm on contralateral side.\nCall reps: Call Stryker or DepuySynthes. All rep numbers in our phone bank.\n\n##Wrap-up:\nCall attending: Tell them SBAR, OR schedule\nPost case: Tell them name, MRN, attending doing surgery, positioning and operative set-up, implant",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 53,
+    "pk": 58,
     "fields": {
         "Category": "Ankle_foot",
         "Injury": "Ankle fracture",
@@ -584,7 +639,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 54,
+    "pk": 59,
     "fields": {
         "Category": "Ankle_foot",
         "Injury": "Lisfranc injury",
@@ -595,7 +650,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 55,
+    "pk": 60,
     "fields": {
         "Category": "Ankle_foot",
         "Injury": "Foot 5th metatarsal base fractures",
@@ -606,7 +661,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 56,
+    "pk": 61,
     "fields": {
         "Category": "Ankle_foot",
         "Injury": "Foot metatarsal fractures",
@@ -617,7 +672,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 57,
+    "pk": 62,
     "fields": {
         "Category": "Ankle_foot",
         "Injury": "Foot tarsal navicular fracture",
@@ -628,7 +683,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 58,
+    "pk": 63,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric elbow supracondylar fracture",
@@ -639,7 +694,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 59,
+    "pk": 64,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric elbow lateral epicondyle fracture",
@@ -650,7 +705,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 60,
+    "pk": 65,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric elbow dislocation",
@@ -661,7 +716,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 61,
+    "pk": 66,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Radial head fracture/dislocation",
@@ -672,7 +727,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 62,
+    "pk": 67,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Distal radius / Both bone forearm fracture",
@@ -683,7 +738,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 63,
+    "pk": 68,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "SCFE",
@@ -694,7 +749,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 64,
+    "pk": 69,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric septic hip",
@@ -705,7 +760,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 65,
+    "pk": 70,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Pediatric femur fracture",
@@ -716,7 +771,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 66,
+    "pk": 71,
     "fields": {
         "Category": "Pediatrics",
         "Injury": "Non-accidental trauma",
@@ -727,7 +782,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 67,
+    "pk": 72,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skeletal traction",
@@ -738,7 +793,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 68,
+    "pk": 73,
     "fields": {
         "Category": "Procedures",
         "Injury": "Skin traction",
@@ -749,7 +804,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 69,
+    "pk": 74,
     "fields": {
         "Category": "Procedures",
         "Injury": "Joint aspiration",
@@ -760,7 +815,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 70,
+    "pk": 75,
     "fields": {
         "Category": "Procedures",
         "Injury": "Reductions",
@@ -771,7 +826,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 71,
+    "pk": 76,
     "fields": {
         "Category": "Procedures",
         "Injury": "Splints",
@@ -782,7 +837,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 72,
+    "pk": 77,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Night Float Guide",
@@ -793,18 +848,18 @@
 },
 {
     "model": "blog.plan",
-    "pk": 73,
+    "pk": 78,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Preoperative Clearance Guide",
         "Injury_key": "preoperative_clearance_guide",
-        "Acute_plan": "\"<b>Guide to medicine and anesthesia consult, from Jamie Kyriakedenes:</b><br>\n#1)<u><b> Cases that will ALWAYS be admitted to medicine</u></b>\n- Significant comorbidities that are a constant threat to life and your 'hunch' is that they will require preoperative diagnostics\n- These can include Echo for CHF that may be decompensating or stress test for new angina, EKG showing RVR or new afib, prolonged hospitalization for recovery from surgery with needs like dialysis, acute hypoxia, needs syncopal workup, etc\n- Always admit these medically unstable patients to medicine. Think ASA status 3-4. <u><a href='https://my.clevelandclinic.org/health/articles/asa-physical-classification-system'>Link to ASA</a></u>\n\n#2)<u><b> Cases that may be admitted to medicine vs Ortho+Dr.Sidagam* (see below)</u></b>\n- Patient has a list of comorbidities, but your hunch is that they are medically stable\n- These can include well-controlled DM, HTN, CKD, asthma, mild/stable CHF. Blood glucose isn't wildly out of control (not worried about DKA). SysBP isn't 200s. Some baseline SOB without acute worsening. Cr/BUN is somewhat elevated but at baseline, not new this admission. You get the point, think ASA 2-3 patients. \n- These patients might need additional preoperative diagnostic studies, but it is not every time, thus requires more work-up:\n\n * A) <u>You choose to pursue admission to medicine.</u>\nIf you stop there and leave the hospital, the medicine team may not round on this patient until 1 pm, they then realize OSH records are needed, etc may not get around to clearing patient until the afternoon or later. Therefore, if you admit to medicine, personally call the medicine team (obtain pager # from ED) and let them know that we are trying to do the case at 10:00 am (or whatever our attending seems to indicate the order will be- ask chief if questions), and to please round on this patient FIRST, to plan to evaluate and optimize patient by that time, and let us know as soon as possible if they have concerns about the patient's ability to be taken to surgery that morning. Dr. Sidagam can also be involved in this situation, but the medicine attending should request and/or be aware of you involving Dr. Sidagam (per Sidagam).\n \n* B) <u>You choose to admit to Ortho and consult Dr. Sidagam for preoperative clearance (+/- postop comanagement).</u>\nYou must then either call Dr. Sidagam around 8:30-9 when he comes in (phone 66867), or CLEARLY sign this task out to the Dayfloat team (or other resident covering that new admission). In this situation (and actually likely either situation 1 or 2 for these sick patients), you would be wise to not expect a 730 first-start, and should temper expectations of the ortho-trauma attending accordingly.\n\n#3) <u><b>Regarding calling anesthesia about a patient preoperatively:</u></b>\nYou should always call the anesthesiologist on-call overnight when you think a patient needs to go to OR that following MORNING (or you have high suspicion that our attending will try to take patient to OR that morning..) and the patient has one of the \"\"CARDIAC\"\" CONDITIONS* below that you feel \"\"might\"\" require further workup. We will continue to go back and forth with anesthesia on what is appropriate and what is not appropriate for overnight calls, and our current opinion is that cardiac/cardiovascular/cardiopulmonary issues most often cause delays in cases, and are important for them to start reviewing as soon as possible. Not infrequently, anesthesia may require further workup even though the medicine team \"\"cleared\"\" a patient, which may delay the case. These conditions frequently require comparing a current Echo or stress test to a previous Echo or stress test. From now on, please call anesthesia overnight when the patient has one of the CARDIAC CONDITIONS below:\n\n* CARDIAC= \n- heart (congestive heart failure, angina, history of heart attacks, valvular conditions [mitral or aortic regurgitation, aortic stenosis, etc.], arrthymias)\n- Cardiopulmonary (history of pulmonary embolism)\n- Cardiovascular (history of abdominal aortic aneurysm or aortic dissection)\n\n<b><u>Misc pre-operative requirements</b></u>\nALL HIP FRACTURE PATIENTS NEED A FOLEY\nPediatric patients do not need pre-operative labs (save them from a needle stick!)\"",
+        "Acute_plan": "\"<b>Guide to medicine and anesthesia consult, from Jamie Kyriakedenes:</b><br>\n#1)<u><b> Cases that will ALWAYS be admitted to medicine</u></b>\n- Significant comorbidities that are a constant threat to life and your 'hunch' is that they will require preoperative diagnostics\n- These can include Echo for CHF that may be decompensating or stress test for new angina, EKG showing RVR or new afib, prolonged hospitalization for recovery from surgery with needs like dialysis, acute hypoxia, needs syncopal workup, etc\n- Always admit these medically unstable patients to medicine. Think ASA status 3-4. <u><a href='https://my.clevelandclinic.org/health/articles/asa-physical-classification-system'>Link to ASA</a></u>\n\n#2)<u><b> Cases that may be admitted to medicine vs Ortho+Dr.Sidagam* (see below)</u></b>\n- Patient has a list of comorbidities, but your hunch is that they are medically stable\n- These can include well-controlled DM, HTN, CKD, asthma, mild/stable CHF. Blood glucose isn't wildly out of control (not worried about DKA). SysBP isn't 200s. Some baseline SOB without acute worsening. Cr/BUN is somewhat elevated but at baseline, not new this admission. You get the point, think ASA 2-3 patients. \n- These patients might need additional preoperative diagnostic studies, but it is not every time, thus requires more work-up:\n\n * A) <u>You choose to pursue admission to medicine.</u>\nIf you stop there and leave the hospital, the medicine team may not round on this patient until 1 pm, they then realize OSH records are needed, etc may not get around to clearing patient until the afternoon or later. Therefore, if you admit to medicine, personally call the medicine team (obtain pager # from ED) and let them know that we are trying to do the case at 10:00 am (or whatever our attending seems to indicate the order will be- ask chief if questions), and to please round on this patient FIRST, to plan to evaluate and optimize patient by that time, and let us know as soon as possible if they have concerns about the patient's ability to be taken to surgery that morning. Dr. Sidagam can also be involved in this situation, but the medicine attending should request and/or be aware of you involving Dr. Sidagam (per Sidagam).\n \n* B) <u>You choose to admit to Ortho and consult Dr. Sidagam for preoperative clearance (+/- postop comanagement).</u>\nYou must then either call Dr. Sidagam around 8:30-9 when he comes in (phone 66867), or CLEARLY sign this task out to the Dayfloat team (or other resident covering that new admission). In this situation (and actually likely either situation 1 or 2 for these sick patients), you would be wise to not expect a 730 first-start, and should temper expectations of the ortho-trauma attending accordingly.\n\n#3) <u><b>Regarding calling anesthesia about a patient preoperatively:</u></b>\nYou should always call the anesthesiologist on-call overnight when you think a patient needs to go to OR that following MORNING (or you have high suspicion that our attending will try to take patient to OR that morning..) and the patient has one of the \"\"CARDIAC\"\" CONDITIONS* below that you feel \"\"might\"\" require further workup. We will continue to go back and forth with anesthesia on what is appropriate and what is not appropriate for overnight calls, and our current opinion is that cardiac/cardiovascular/cardiopulmonary issues most often cause delays in cases, and are important for them to start reviewing as soon as possible. Not infrequently, anesthesia may require further workup even though the medicine team \"\"cleared\"\" a patient, which may delay the case. These conditions frequently require comparing a current Echo or stress test to a previous Echo or stress test. From now on, please call anesthesia overnight when the patient has one of the CARDIAC CONDITIONS below:\n\n* CARDIAC= \n- heart (congestive heart failure, angina, history of heart attacks, valvular conditions [mitral or aortic regurgitation, aortic stenosis, etc.], arrthymias)\n- Cardiopulmonary (history of pulmonary embolism)\n- Cardiovascular (history of abdominal aortic aneurysm or aortic dissection)\n\n<b><u>Misc pre-operative requirements</b></u>\nALL HIP FRACTURE PATIENTS NEED A FOLEY\nPediatric patients do not need pre-operative labs (save them from a needle stick!)\nT&S??\nSugartong = show actual picture, of patient's motion; \nShort leg splint = neutral flexion, everything gets a splint\nBundle consults together before calling\nJoint aspiration - need lavadner top tubes\n\"",
         "Follow_up": ""
     }
 },
 {
     "model": "blog.plan",
-    "pk": 74,
+    "pk": 79,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "UH Upper Extremity Consult Policy",
@@ -815,7 +870,7 @@
 },
 {
     "model": "blog.plan",
-    "pk": 75,
+    "pk": 80,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "Emergent Operative Cases Guide",
@@ -826,23 +881,12 @@
 },
 {
     "model": "blog.plan",
-    "pk": 76,
+    "pk": 81,
     "fields": {
         "Category": "Rotations_logistics",
         "Injury": "UH Ortho Equipment Guide",
         "Injury_key": "uh_ortho_equipment_guide",
         "Acute_plan": "<h3><u>General OR set-up equipment</u></h3>\n<b>Standard radiolucent OR table:</b>\n\n<b>Fracture table:</b>\nAny type of OR table with boots that allow for rotation and traction control of legs:\n\nUsed for:\n- Many long-bone fractures\n\n<img class='img-responsive', width='300' height='200', src=https://www.meditek.ca/wp-content/uploads/2017/02/OrthoTrax-1-A.jpg>\n\n<b>Hana table:</b>\nSpecific fracture table, produced by Mizuho, that allows for hyperextension, adduction, and external rotation of the leg.\n\nUsed for:\n- <b>Anterior approach for THA</b>\n- Hip, femur, tibia fractures \u2013 allows for IM nail\n\n<img src=\u2019https://www.mizuhosi.com/wp-content/uploads/DS8_4116_edited.jpg\u2019>\n\n<b>Jackson frame:</b>\n\nUsed for:\n- <b>Most spine surgeries, as it allows prone positioning</b>\n\n<img src=\u2019https://www.mizuhosi.com/wp-content/uploads/Jackson-Spinal-D_revNB_11_18_10.jpg\u2019>\n\n<h3><u>Specific implants</h3></u>\n<b><u>DepuySynthes</u></b>:\nTrochanteric Fixation Nail:\n- <img src=\u2019https://www.depuysynthes.com/hcp/trauma/products/qs/Titanium-Trochanteric-Fixation-N\u2019 > DepuySynthes website for Gamma nails</a>\n- Proximal helical blade designed for better resistance to varus collapse\n- Used for proximal femur fractures\n- Comes in short and long variants (for extension into diaphysis)\n\nTitanium Cannulated Tibial Nail:\n- <img src=\u2019https://www.depuysynthes.com/hcp/trauma/products/qs/titanium-cannul-tibial-nail-ex\u2019>DepuySynthes website for tibial nails</a>\n- For proximal, middle, and distal tibial shaft fractures\n\n<b><u>Stryker</u></b>:\nGamma cephallomedullary nail series:\n- <img src=\u2019https://www.stryker.com/us/en/trauma-and-extremities/products/gamma3.html\u2019>Stryker website for Gamma nails</a>\n- <i>Gamma trochanteric nail</i>: short cephalomedullary nail that can be used for femoral neck fractures, intertrochanteric fractures, subtrochanteric fractures\n- <i>Gamma Long Nail</i>: long cephalomedullary nail that can be used for proximal femur fractures with extension into the femoral diaphysis\n\nRecon femoral nail:\n- <img src= \u2018https://www.stryker.com/us/en/trauma-and-extremities/products/t2-recon.html\u2019>Stryker website for Recon nails</a>\n- Long intramedullary nail with options for 2 lag screws proximally for proximal femur fractures and a distal locking screws for antegrade nailing of diaphyseal femur fractures\n\nT2 antegrade/retrograde femoral nail:\n- <img src= \u2018https://www.stryker.com/us/en/trauma-and-extremities/products/t2-femur-ar.html\u2019>Stryker website for Recon nails</a>\n- Long intramedullary nail with options for 2 lag screws proximally for proximal femur fractures and a distal locking screws for antegrade nailing of diaphyseal femur fractures\n\nT2 tibia nail:\n- <img src=\u2019https://www.stryker.com/us/en/trauma-and-extremities/products/t2-tibia.html\u2019>Stryker website for T2 tibia nail</a>\n- For proximal, middle, and distal tibia diaphysis fractures\n- Can be used for suprapatellar approach\n\n<b><u>Fragment sets</u></b>:\nSmall fragment set:\n- Variants from all implant makers (Stryker, DepuySynthes, etc.)\n- For fixation of fractures, osteotomies, and nonunions of the clavicle, scapula, olecranon, radius, ulna, distal tibia, and fibula, particularly in osteopenic bone\n\nLarge fragment set:\n- Variants from all implant makers (Stryker, DepuySynthes, etc.)\n- For fixation of various long bones, such as humerus, femur, tibia\n- Buttressing tibial plateau\n\nPelvic recon plate and screws:\n- Variants from all implant makers (Stryker, DepuySynthes, etc.)\n- Specifically designed to fit complex anatomy of pelvis",
-        "Follow_up": ""
-    }
-},
-{
-    "model": "blog.plan",
-    "pk": 77,
-    "fields": {
-        "Category": "Rotations_logistics",
-        "Injury": "Floor issues",
-        "Injury_key": "floor_issues",
-        "Acute_plan": "##Abdominal pain\nCheck for signs of peritonitis in physical exam\nPassing gas? Bowel movement? \nCheck KUB xrays for bowel obstruction\nCan order simethicone for gas pain\n\n##Antibiotics\nDo not reorder antibiotics overnight before checking with primary team or attending, especially for spine patients. \n~~In most cases, antibiotics can wait until morning\n~~The only time you should acutely begin antibiotics is for post-operative 24h antibiotics, in case these were missed.\nRed man syndrome from vancomycin\n~~Benadryl and ranitidine premedication. Tachy at baseline, no hypotension.\n\n##Chest pain\nAlways get a EKG\nHistory of MI or PE?\nIf persistent \n\n##Compartment syndrome\nStryker needle?\n\n##Dressing\nAquacell came off - repaint with chloraprep, get a new Aquacell from OR, then put one back on\n\n##DVT\nConsult Dr. Sidagam\nFirst start on anti-coagulation with Lovenox\n\n##Pain control\n\n##Urinary issues\nDysuria? Ordered UA.\nUrinary retention? Follow post-void residuals, then foley if retention does not resolve after straight cath x2.",
         "Follow_up": ""
     }
 }
