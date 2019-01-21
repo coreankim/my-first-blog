@@ -1057,12 +1057,23 @@
 },
 {
     "model": "blog.plan",
-    "pk": 98,
+    "pk": 97,
     "fields": {
-        "Category": "Templates",
+        "Category": "Templates_references",
         "Injury": "Call sheets/schedule",
         "Injury_key": "uh_call_sheets_schedule",
         "Acute_plan": "<a href='https://drive.google.com/open?id=0B0deFNq-fZQ_eV9TaFlkWVBGbGd0VU9tWDRpanlNWmxIUHdB'>Sample call sheets</a>\n<br><br>\n<a href='https://drive.google.com/open?id=1HRQkhLdVh5-xZxzFf4PHz5Zc-dfMKnqr'>Current call schedule</a>",
+        "Follow_up": ""
+    }
+},
+{
+    "model": "blog.plan",
+    "pk": 98,
+    "fields": {
+        "Category": "Templates_references",
+        "Injury": "References",
+        "Injury_key": "references",
+        "Acute_plan": "Thompson SR, Zlotolow DA. Handbook of Splinting and Casting. ",
         "Follow_up": ""
     }
 }
