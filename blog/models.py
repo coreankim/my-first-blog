@@ -17,6 +17,7 @@ class Post(models.Model):
         return self.title
 
 class Plan(models.Model):
+    Sidebar_menu = models.CharField(max_length=100)
     Category = models.CharField(max_length=100)
     Injury = models.CharField(max_length=100)
     Injury_key = models.CharField(max_length=100)

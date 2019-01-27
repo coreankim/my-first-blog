@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
 console.log("Im working!")
+var currentID = window.location.href.split("/").reverse()[1];
+console.log(currentID)
 	$.ajax({
 		url: '/blog/sidebar/',
 		type: 'get',
