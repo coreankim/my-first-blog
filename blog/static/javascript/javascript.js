@@ -6,14 +6,14 @@ console.log("Im working!")
 		type: 'get',
 		dataType: 'json',
 		success: function (data) {
-			for (var x in data["plans"]) {
-			    var componentID = data["plans"][x]["Category"]
-			    var Injury_key = data["plans"][x]["Injury_key"]
+			for (var i = 0; i < data["plans"].length; i++) {
+			    var componentID = data["plans"][i]["Category"]
+			    var Injury_key = data["plans"][i]["Injury_key"]
                 var text="/blog/"+Injury_key+"/"
                 var list = $("<li>")
                 var link = $("<a />", {
 				    href : text,
-				    text : data["plans"][x]["Injury"]
+				    text : data["plans"][i]["Injury"]
 				});
 				list.append(link)
 			    $('#'+componentID).append(list)
