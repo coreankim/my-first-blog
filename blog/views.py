@@ -17,9 +17,10 @@ def sidebar(request):
 		plan_raw = plans[i]
 		planObj = dict()
 		planObj["id"] = plan_raw.id
+		planObj["Sidebar_menu"] = plan_raw.Sidebar_menu
+		planObj["Category"] = plan_raw.Category
 		planObj["Injury_key"] = plan_raw.Injury_key
 		planObj["Injury"] = plan_raw.Injury
-		planObj["Category"] = plan_raw.Category
 		planObjList.append(planObj)
 		print(plan_raw.Injury)
 	return JsonResponse({'plans': planObjList})
