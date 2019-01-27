@@ -22,4 +22,4 @@ class Plan(models.Model):
     Injury = models.CharField(max_length=100)
     Injury_key = models.CharField(max_length=100)
     Acute_plan = models.TextField()
-    Follow_up = models.TextField()
+    Media = models.TextField()
