@@ -27,7 +27,7 @@ var currentID = window.location.href.split("/").reverse()[1];
 			    	$('a[href="#'+Sidebar_menu+'"]').attr("aria-expanded", "true")
 			    	$('#'+Sidebar_menu).attr("class", "list-unstyled collapse show")
 			    	$('#'+componentID).attr("class", "list-unstyled collapse show")
-			    	$('#'+Injury_key).attr({"color": "#fff", "background-color": "#6d7fcc"})
+			    	$('#'+Injury_key).attr({"color": "#fff", "background-color": "#white"})
 			    }
 			}
 		}

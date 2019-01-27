@@ -135,7 +135,7 @@
     "model": "blog.plan",
     "pk": 12,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Shoulder",
         "Injury": "Shoulder dislocation",
         "Injury_key": "shoulder_dislocation",
@@ -147,7 +147,7 @@
     "model": "blog.plan",
     "pk": 13,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Shoulder",
         "Injury": "AC joint separation",
         "Injury_key": "ac_joint_separation",
@@ -159,7 +159,7 @@
     "model": "blog.plan",
     "pk": 14,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Shoulder",
         "Injury": "Clavicle fracture",
         "Injury_key": "clavicle_fracture",
@@ -171,7 +171,7 @@
     "model": "blog.plan",
     "pk": 15,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Shoulder",
         "Injury": "Scapula fracture",
         "Injury_key": "scapula_fracture",
@@ -183,7 +183,7 @@
     "model": "blog.plan",
     "pk": 16,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Shoulder",
         "Injury": "Scapulathoracic disassociation",
         "Injury_key": "scapulathoracic_disassociation",
@@ -195,7 +195,7 @@
     "model": "blog.plan",
     "pk": 17,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Humerus",
         "Injury": "Proximal humerus fracture",
         "Injury_key": "proximal_humerus_fracture",
@@ -207,7 +207,7 @@
     "model": "blog.plan",
     "pk": 18,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Humerus",
         "Injury": "Humeral shaft fracture",
         "Injury_key": "humeral_shaft_fracture",
@@ -219,7 +219,7 @@
     "model": "blog.plan",
     "pk": 19,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Humerus",
         "Injury": "Distal humerus fracture",
         "Injury_key": "distal_humerus_fracture",
@@ -231,7 +231,7 @@
     "model": "blog.plan",
     "pk": 20,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Elbow",
         "Injury": "Elbow dislocation",
         "Injury_key": "elbow_dislocation",
@@ -243,7 +243,7 @@
     "model": "blog.plan",
     "pk": 21,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Hand",
         "Injury": "Metacarpal fracture",
         "Injury_key": "metacarpal_fracture",
@@ -255,7 +255,7 @@
     "model": "blog.plan",
     "pk": 22,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Hand",
         "Injury": "Tendon injury",
         "Injury_key": "tendon_injury",
@@ -267,7 +267,7 @@
     "model": "blog.plan",
     "pk": 23,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Hand",
         "Injury": "Other hand soft tissue injury",
         "Injury_key": "other_hand_soft_tissue_injury",
@@ -279,7 +279,7 @@
     "model": "blog.plan",
     "pk": 24,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Hand",
         "Injury": "Nailbed injury",
         "Injury_key": "nailbed_injury",
@@ -291,7 +291,7 @@
     "model": "blog.plan",
     "pk": 25,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Hand",
         "Injury": "Finger amputation",
         "Injury_key": "finger_amputation",
@@ -303,7 +303,7 @@
     "model": "blog.plan",
     "pk": 26,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Hand",
         "Injury": "Flexor tenosynovitis",
         "Injury_key": "flextor_tenosynovitis",
@@ -315,7 +315,7 @@
     "model": "blog.plan",
     "pk": 27,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Hand",
         "Injury": "Hand compartment syndrome",
         "Injury_key": "hand_compartment_syndrome",
@@ -327,7 +327,7 @@
     "model": "blog.plan",
     "pk": 28,
     "fields": {
-        "Sidebar_menu": "Upper_extremity",
+        "Sidebar_menu": "Adult_upper_extremity",
         "Category": "Hand",
         "Injury": "Hand infections",
         "Injury_key": "hand_infections",
@@ -543,7 +543,7 @@
     "model": "blog.plan",
     "pk": 46,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Pelvis_acetabulum",
         "Injury": "APC pelvic ring fracture",
         "Injury_key": "apc_pelvic_ring_fracture",
@@ -555,7 +555,7 @@
     "model": "blog.plan",
     "pk": 47,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Pelvis_acetabulum",
         "Injury": "LC pelvic ring fracture",
         "Injury_key": "lc_pelvic_ring_fracture",
@@ -567,7 +567,7 @@
     "model": "blog.plan",
     "pk": 48,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Pelvis_acetabulum",
         "Injury": "Vertical pelvic ring fracture",
         "Injury_key": "vertical_pelvic_ring_fracture",
@@ -579,7 +579,7 @@
     "model": "blog.plan",
     "pk": 49,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Pelvis_acetabulum",
         "Injury": "Pubic rami fracture",
         "Injury_key": "pubic_rami_fracture",
@@ -591,7 +591,7 @@
     "model": "blog.plan",
     "pk": 50,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Pelvis_acetabulum",
         "Injury": "Acetabulum fracture",
         "Injury_key": "acetabulum_fracture",
@@ -603,7 +603,7 @@
     "model": "blog.plan",
     "pk": 51,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Pelvis_acetabulum",
         "Injury": "Sacral fracture",
         "Injury_key": "sacral_fracture",
@@ -615,7 +615,7 @@
     "model": "blog.plan",
     "pk": 52,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Hip",
         "Injury": "Hip dislocation",
         "Injury_key": "hip_dislocation",
@@ -627,7 +627,7 @@
     "model": "blog.plan",
     "pk": 53,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Hip",
         "Injury": "Femoral neck",
         "Injury_key": "femoral_neck",
@@ -639,7 +639,7 @@
     "model": "blog.plan",
     "pk": 54,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Hip",
         "Injury": "Proximal femur periprosthetic fracture",
         "Injury_key": "proximal_femur_periprosthetic_fracture",
@@ -651,7 +651,7 @@
     "model": "blog.plan",
     "pk": 55,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Hip",
         "Injury": "Intertrochanteric femur",
         "Injury_key": "intertrochanteric_femur",
@@ -663,7 +663,7 @@
     "model": "blog.plan",
     "pk": 56,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Hip",
         "Injury": "Subtrochanteric femur",
         "Injury_key": "subtrochanteric_femur",
@@ -675,7 +675,7 @@
     "model": "blog.plan",
     "pk": 57,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Femur",
         "Injury": "Femoral shaft fracture",
         "Injury_key": "femoral_shaft_fracture",
@@ -687,7 +687,7 @@
     "model": "blog.plan",
     "pk": 58,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Femur",
         "Injury": "Distal femur fracture",
         "Injury_key": "distal_femur_fracture",
@@ -699,7 +699,7 @@
     "model": "blog.plan",
     "pk": 59,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Knee",
         "Injury": "Knee dislocation",
         "Injury_key": "knee_dislocation",
@@ -711,7 +711,7 @@
     "model": "blog.plan",
     "pk": 60,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Knee",
         "Injury": "TKA periprosthetic fracture",
         "Injury_key": "tka_periprosthetic_fracture",
@@ -723,7 +723,7 @@
     "model": "blog.plan",
     "pk": 61,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Knee",
         "Injury": "Patella fracture",
         "Injury_key": "patella_fracture",
@@ -735,7 +735,7 @@
     "model": "blog.plan",
     "pk": 62,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Tibia",
         "Injury": "Tibial plateau fracture",
         "Injury_key": "tibial_plateau_fracture",
@@ -747,7 +747,7 @@
     "model": "blog.plan",
     "pk": 63,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Tibia",
         "Injury": "Tibial shaft fracture",
         "Injury_key": "tibial_shaft_fracture",
@@ -759,7 +759,7 @@
     "model": "blog.plan",
     "pk": 64,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Ankle_foot",
         "Injury": "Pilon fracture",
         "Injury_key": "pilon_fracture",
@@ -771,7 +771,7 @@
     "model": "blog.plan",
     "pk": 65,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Ankle_foot",
         "Injury": "Ankle fracture",
         "Injury_key": "ankle_fracture",
@@ -783,7 +783,7 @@
     "model": "blog.plan",
     "pk": 66,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Ankle_foot",
         "Injury": "Lisfranc injury",
         "Injury_key": "lisfranc_injury",
@@ -795,7 +795,7 @@
     "model": "blog.plan",
     "pk": 67,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Ankle_foot",
         "Injury": "Foot 5th metatarsal base fractures",
         "Injury_key": "foot_5th_metatarsal_base_fractures",
@@ -807,7 +807,7 @@
     "model": "blog.plan",
     "pk": 68,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Ankle_foot",
         "Injury": "Foot metatarsal fractures",
         "Injury_key": "foot_metatarsal_fractures",
@@ -819,7 +819,7 @@
     "model": "blog.plan",
     "pk": 69,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Ankle_foot",
         "Injury": "Foot tarsal navicular fracture",
         "Injury_key": "foot_tarsal_navicular_fracture",
@@ -831,7 +831,7 @@
     "model": "blog.plan",
     "pk": 70,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Ankle_foot",
         "Injury": "Foot subtalar dislocation",
         "Injury_key": "foot_subtalar_dislocation",
@@ -843,7 +843,7 @@
     "model": "blog.plan",
     "pk": 71,
     "fields": {
-        "Sidebar_menu": "Lower_extremity",
+        "Sidebar_menu": "Adult_lower_extremity",
         "Category": "Ankle_foot",
         "Injury": "Foot osteomyelitis",
         "Injury_key": "foot_osteomyelitis",
