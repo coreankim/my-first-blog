@@ -7,7 +7,7 @@
 		        <h2>{{ plan.Injury }}</h2>
 		        <br>
 		        <div id="acute-plan">
-		        {% if plan.Category == "Procedures" or plan.Category == "Rotations_logistics" or plan.Category == "Attending_preferences" or plan.Category == "Templates_references" %}
+		        {% if plan.Category == "Procedures" or plan.Category == "Rotations_logistics" or plan.Category == "Attending_preferences" %}
 			        <span id="acute-plan-info">
 				        <p>{{ plan.Acute_plan|safe|linebreaksbr }}</p>
 			        </span>
