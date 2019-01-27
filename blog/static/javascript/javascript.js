@@ -6,7 +6,6 @@ console.log("Im working!")
 		type: 'get',
 		dataType: 'json',
 		success: function (data) {
-			console.log(data["plans"])
 			var plans = data["plans"].slice(0);
 			plans.sort(function(a,b) {
 			    return a.id - b.id;
@@ -14,8 +13,6 @@ console.log("Im working!")
 			for (var i = 0; i < plans.length; i++) {
 			    var componentID = plans[i]["Category"]
 			    var Injury_key = plans[i]["Injury_key"]
-			    // console.log(data["plans"][i]["id"])
-			    // console.log(Injury_key)
                 var text="/blog/"+Injury_key+"/"
                 var list = $("<li>")
                 var link = $("<a />", {
