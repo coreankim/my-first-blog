@@ -22,7 +22,6 @@ def sidebar(request):
 		planObj["Injury_key"] = plan_raw.Injury_key
 		planObj["Injury"] = plan_raw.Injury
 		planObjList.append(planObj)
-		print(plan_raw.Injury)
 	return JsonResponse({'plans': planObjList})
 
 # def plan_detail(request, Injury_key):
