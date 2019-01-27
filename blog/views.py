@@ -13,11 +13,12 @@ def base(request):
 def sidebar(request):
 	plans = Plan.objects.all()
 	planObjList = list()
-	for x in plans:
+	for i in range(len(plans)):
+		plan_raw = plans[i]
 		planObj = dict()
-		planObj["Injury_key"] = x.Injury_key
-		planObj["Injury"] = x.Injury
-		planObj["Category"] = x.Category
+		planObj["Injury_key"] = plan_raw.Injury_key
+		planObj["Injury"] = plan_raw.Injury
+		planObj["Category"] = plan_raw.Category
 		planObjList.append(planObj)
 	return JsonResponse({'plans': planObjList})
 
