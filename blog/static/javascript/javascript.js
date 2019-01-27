@@ -9,8 +9,8 @@ console.log("Im working!")
 			for (var i = 0; i < data["plans"].length; i++) {
 			    var componentID = data["plans"][i]["Category"]
 			    var Injury_key = data["plans"][i]["Injury_key"]
-			    print(data["plans"][i]["id"])
-			    print(Injury_key)
+			    console.log(data["plans"][i]["id"])
+			    console.log(Injury_key)
                 var text="/blog/"+Injury_key+"/"
                 var list = $("<li>")
                 var link = $("<a />", {
