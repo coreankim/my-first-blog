@@ -7,16 +7,20 @@ console.log("Im working!")
 		dataType: 'json',
 		success: function (data) {
 			console.log(data["plans"])
-			for (var i = 0; i < data["plans"].length; i++) {
-			    var componentID = data["plans"][i]["Category"]
-			    var Injury_key = data["plans"][i]["Injury_key"]
-			    console.log(data["plans"][i]["id"])
-			    console.log(Injury_key)
+			var plans = data["plans"].slice(0);
+			plans.sort(function(a,b) {
+			    return a.id - b.id;
+			});
+			for (var i = 0; i < plans.length; i++) {
+			    var componentID = plans[i]["Category"]
+			    var Injury_key = plans[i]["Injury_key"]
+			    // console.log(data["plans"][i]["id"])
+			    // console.log(Injury_key)
                 var text="/blog/"+Injury_key+"/"
                 var list = $("<li>")
                 var link = $("<a />", {
 				    href : text,
-				    text : data["plans"][i]["Injury"]
+				    text : plans[i]["Injury"]
 				});
 				list.append(link)
 			    $('#'+componentID).append(list)
