@@ -6,6 +6,7 @@ console.log("Im working!")
 		type: 'get',
 		dataType: 'json',
 		success: function (data) {
+			console.log(data["plans"])
 			for (var i = 0; i < data["plans"].length; i++) {
 			    var componentID = data["plans"][i]["Category"]
 			    var Injury_key = data["plans"][i]["Injury_key"]
